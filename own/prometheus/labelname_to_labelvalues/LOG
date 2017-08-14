@@ -1,0 +1,44 @@
+=============== Jun 25, 2017 (UTC) ===============
+13:37:14.419564 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:37:14.419753 db@open opening
+13:37:14.420332 version@stat F·[] S·0B[] Sc·[]
+13:37:14.422175 db@janitor F·2 G·0
+13:37:14.422237 db@open done T·2.468354ms
+13:37:44.321448 db@close closing
+13:37:44.321474 db@close done T·25.414µs
+=============== Jun 25, 2017 (UTC) ===============
+13:39:48.627743 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:39:48.627870 version@stat F·[] S·0B[] Sc·[]
+13:39:48.627881 db@open opening
+13:39:48.627937 journal@recovery F·1
+13:39:48.639000 journal@recovery recovering @1
+13:39:48.644159 memdb@flush created L0@2 N·28 S·19KiB "\x04id,v13":"Zco..ame,v20"
+13:39:48.644714 version@stat F·[1] S·19KiB[19KiB] Sc·[0.25]
+13:39:48.645132 db@janitor F·3 G·0
+13:39:48.645152 db@open done T·17.262572ms
+14:15:15.732958 db@close closing
+14:15:15.733297 db@close done T·338.093µs
+=============== Jun 26, 2017 (UTC) ===============
+04:52:30.970646 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:52:30.971564 version@stat F·[1] S·19KiB[19KiB] Sc·[0.25]
+04:52:30.971577 db@open opening
+04:52:30.971640 journal@recovery F·1
+04:52:30.972184 journal@recovery recovering @3
+04:52:30.986768 memdb@flush created L0@5 N·338 S·332KiB "\x04id,v363":"Zco..ame,v43"
+04:52:30.987732 version@stat F·[2] S·351KiB[351KiB] Sc·[0.50]
+04:52:30.989405 db@janitor F·4 G·0
+04:52:30.989433 db@open done T·17.847864ms
+04:55:18.966400 db@close closing
+04:55:18.966439 db@close done T·38.045µs
+=============== Jun 26, 2017 (UTC) ===============
+04:55:39.954610 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:55:39.954726 version@stat F·[2] S·351KiB[351KiB] Sc·[0.50]
+04:55:39.954736 db@open opening
+04:55:39.954777 journal@recovery F·1
+04:55:39.955320 journal@recovery recovering @6
+04:55:40.146450 memdb@flush created L0@8 N·63 S·68KiB "\x04id,v427":" ca..ion,v369"
+04:55:40.147738 version@stat F·[3] S·420KiB[420KiB] Sc·[0.75]
+04:55:40.148612 db@janitor F·5 G·0
+04:55:40.148670 db@open done T·193.921918ms
+05:09:50.296657 db@close closing
+05:09:50.296697 db@close done T·40.426µs

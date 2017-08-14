@@ -1,0 +1,162 @@
+=============== Jul 10, 2017 (UTC) ===============
+08:14:58.660879 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:14:58.661159 db@open opening
+08:14:58.661376 version@stat F·[] S·0B[] Sc·[]
+08:14:58.663136 db@janitor F·2 G·0
+08:14:58.663172 db@open done T·2.002946ms
+=============== Jul 11, 2017 (UTC) ===============
+17:11:58.259917 memdb@flush N·1634 S·3MiB
+17:11:58.292386 memdb@flush created L0@3 N·1634 S·2MiB "\x04id,v1632":"Zco..ame,v11"
+17:11:58.292468 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+17:11:58.294063 memdb@flush committed F·1 T·34.081725ms
+17:11:58.294956 journal@remove removed @1
+17:18:27.627487 memdb@flush N·1528 S·3MiB
+17:18:27.659688 memdb@flush created L0@5 N·1528 S·2MiB "\x04id,v3160":"Zco..ame,v1646"
+17:18:27.659774 version@stat F·[2] S·4MiB[4MiB] Sc·[0.50]
+17:18:27.661596 memdb@flush committed F·1 T·34.044853ms
+17:18:27.663646 journal@remove removed @2
+17:24:21.529157 memdb@flush N·1555 S·3MiB
+17:24:22.208439 memdb@flush created L0@7 N·1555 S·2MiB "\x04id,v4715":"Zco..ame,v3174"
+17:24:22.208672 version@stat F·[3] S·6MiB[6MiB] Sc·[0.75]
+17:24:22.438961 memdb@flush committed F·1 T·909.703683ms
+17:24:22.440411 journal@remove removed @4
+17:30:55.908189 memdb@flush N·1540 S·3MiB
+17:30:55.940485 memdb@flush created L0@9 N·1540 S·2MiB "\x04id,v6255":"Zco..ame,v4733"
+17:30:55.940571 version@stat F·[4] S·8MiB[8MiB] Sc·[1.00]
+17:30:55.942250 memdb@flush committed F·1 T·33.996138ms
+17:30:55.943299 journal@remove removed @6
+17:30:55.943369 table@compaction L0·4 -> L1·0 S·8MiB Q·6262
+17:30:55.975496 table@build created L1@10 N·28 S·18KiB "\x04id,v6255":"Zco..ame,v6208"
+17:30:55.975574 version@stat F·[0 1] S·18KiB[0B 18KiB] Sc·[0.00 0.00]
+17:30:55.977218 table@compaction committed F-3 S-8MiB Ke·0 D·6229 T·33.815291ms
+17:30:55.977691 table@remove removed @9
+17:30:55.978200 table@remove removed @7
+17:30:55.978593 table@remove removed @5
+17:30:55.979173 table@remove removed @3
+17:37:20.617600 memdb@flush N·1544 S·3MiB
+17:37:20.644957 memdb@flush created L0@12 N·1544 S·2MiB "\x04id,v7796":"Zco..ame,v6272"
+17:37:20.645027 version@stat F·[1 1] S·2MiB[2MiB 18KiB] Sc·[0.25 0.00]
+17:37:20.646751 memdb@flush committed F·1 T·29.111717ms
+17:37:20.647672 journal@remove removed @8
+20:52:57.460472 memdb@flush N·1543 S·3MiB
+20:52:57.493753 memdb@flush created L0@14 N·1543 S·2MiB "\x04id,v9343":"Zco..ame,v7813"
+20:52:57.493829 version@stat F·[2 1] S·4MiB[4MiB 18KiB] Sc·[0.50 0.00]
+20:52:57.495613 memdb@flush committed F·1 T·35.096035ms
+20:52:57.496452 journal@remove removed @11
+20:58:35.580039 memdb@flush N·1554 S·3MiB
+20:58:35.603956 memdb@flush created L0@16 N·1554 S·2MiB "\x04id,v10895":"Zco..ame,v9354"
+20:58:35.604017 version@stat F·[3 1] S·6MiB[6MiB 18KiB] Sc·[0.75 0.00]
+20:58:35.605688 memdb@flush committed F·1 T·25.599783ms
+20:58:35.606519 journal@remove removed @13
+21:00:00.575971 db@close closing
+21:00:00.576086 db@close done T·115.099µs
+=============== Jul 23, 2017 (UTC) ===============
+11:44:11.067216 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:44:11.068662 version@stat F·[3 1] S·6MiB[6MiB 18KiB] Sc·[0.75 0.00]
+11:44:11.068678 db@open opening
+11:44:11.068765 journal@recovery F·1
+11:44:11.072041 journal@recovery recovering @15
+11:44:11.088154 memdb@flush created L0@17 N·367 S·509KiB "\x04id,v11261":"Zco..ame,v10911"
+11:44:11.089259 version@stat F·[4 1] S·6MiB[6MiB 18KiB] Sc·[1.00 0.00]
+11:44:11.089717 db@janitor F·7 G·0
+11:44:11.089747 db@open done T·21.059862ms
+11:44:11.089869 table@compaction L0·4 -> L1·1 S·6MiB Q·11266
+11:44:11.212008 table@build created L1@20 N·28 S·18KiB "\x04id,v11261":"Zco..ame,v11245"
+11:44:11.212153 version@stat F·[0 1] S·18KiB[0B 18KiB] Sc·[0.00 0.00]
+11:44:11.218642 table@compaction committed F-4 S-6MiB Ke·0 D·5008 T·128.697616ms
+11:44:11.218910 table@remove removed @17
+11:44:11.219237 table@remove removed @16
+11:44:11.219562 table@remove removed @14
+11:44:11.219896 table@remove removed @12
+11:44:11.219948 table@remove removed @10
+09:51:52.103730 memdb@flush N·1620 S·3MiB
+09:51:52.510229 memdb@flush created L0@22 N·1620 S·2MiB "\x04id,v12884":"Zco..ame,v11284"
+09:51:52.510310 version@stat F·[1 1] S·2MiB[2MiB 18KiB] Sc·[0.25 0.00]
+09:51:52.880973 memdb@flush committed F·1 T·777.173147ms
+09:51:52.881770 journal@remove removed @18
+09:58:14.156055 memdb@flush N·1479 S·3MiB
+09:58:14.182845 memdb@flush created L0@24 N·1479 S·2MiB "\x04id,v14360":"Zco..ame,v12887"
+09:58:14.182924 version@stat F·[2 1] S·4MiB[4MiB 18KiB] Sc·[0.50 0.00]
+09:58:14.184696 memdb@flush committed F·1 T·28.590621ms
+09:58:14.185635 journal@remove removed @21
+10:04:02.666512 memdb@flush N·1545 S·3MiB
+10:04:02.693265 memdb@flush created L0@26 N·1545 S·2MiB "\x04id,v15900":"Zco..ame,v14380"
+10:04:02.693326 version@stat F·[3 1] S·7MiB[6MiB 18KiB] Sc·[0.75 0.00]
+10:04:02.695093 memdb@flush committed F·1 T·28.538238ms
+10:04:02.696172 journal@remove removed @23
+12:47:46.743118 memdb@flush N·1516 S·3MiB
+12:47:46.766494 memdb@flush created L0@28 N·1516 S·2MiB "\x04id,v17421":"Zco..ame,v15924"
+12:47:46.766562 version@stat F·[4 1] S·9MiB[9MiB 18KiB] Sc·[1.00 0.00]
+12:47:46.768496 memdb@flush committed F·1 T·25.308789ms
+12:47:46.769572 journal@remove removed @25
+12:47:46.769641 table@compaction L0·4 -> L1·1 S·9MiB Q·17439
+12:47:46.804582 table@build created L1@29 N·28 S·18KiB "\x04id,v17421":"Zco..ame,v17422"
+12:47:46.804644 version@stat F·[0 1] S·18KiB[0B 18KiB] Sc·[0.00 0.00]
+12:47:46.806368 table@compaction committed F-4 S-9MiB Ke·0 D·6160 T·36.695626ms
+12:47:46.806931 table@remove removed @28
+12:47:46.807473 table@remove removed @26
+12:47:46.807965 table@remove removed @24
+12:47:46.808486 table@remove removed @22
+12:47:46.808547 table@remove removed @20
+12:48:09.728917 db@close closing
+12:48:09.728974 db@close done T·55.675µs
+=============== Aug 14, 2017 (UTC) ===============
+18:58:49.950342 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:58:49.951270 version@stat F·[0 1] S·18KiB[0B 18KiB] Sc·[0.00 0.00]
+18:58:49.951290 db@open opening
+18:58:49.951356 journal@recovery F·1
+18:58:49.952368 journal@recovery recovering @27
+18:58:49.959504 memdb@flush created L0@30 N·123 S·188KiB "\x04id,v17546":"Zco..ame,v17437"
+18:58:49.965666 version@stat F·[1 1] S·207KiB[188KiB 18KiB] Sc·[0.25 0.00]
+18:58:49.966355 db@janitor F·4 G·0
+18:58:49.966425 db@open done T·15.122975ms
+17:03:39.547044 memdb@flush N·1507 S·3MiB
+17:03:41.318245 memdb@flush created L0@34 N·1507 S·2MiB "\x04id,v19050":"Zco..ame,v17590"
+17:03:41.318308 version@stat F·[2 1] S·2MiB[2MiB 18KiB] Sc·[0.50 0.00]
+17:03:41.329280 memdb@flush committed F·1 T·1.782171584s
+17:03:41.331963 journal@remove removed @31
+17:08:19.689676 memdb@flush N·1436 S·3MiB
+17:08:19.714581 memdb@flush created L0@36 N·1436 S·2MiB "\x04id,v20493":"Zco..ame,v19116"
+17:08:19.714648 version@stat F·[3 1] S·4MiB[4MiB 18KiB] Sc·[0.75 0.00]
+17:08:19.716613 memdb@flush committed F·1 T·26.609841ms
+17:08:19.717534 journal@remove removed @33
+17:13:13.399916 memdb@flush N·1462 S·3MiB
+17:13:13.431043 memdb@flush created L0@38 N·1462 S·2MiB "\x04id,v21955":"Zco..ame,v20510"
+17:13:13.431150 version@stat F·[4 1] S·7MiB[7MiB 18KiB] Sc·[1.00 0.00]
+17:13:13.434139 memdb@flush committed F·1 T·33.875163ms
+17:13:13.435300 journal@remove removed @35
+17:13:13.435375 table@compaction L0·4 -> L1·1 S·7MiB Q·21969
+17:13:13.470991 table@build created L1@39 N·28 S·20KiB "\x04id,v21955":"Zco..ame,v21900"
+17:13:13.471074 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+17:13:13.472799 table@compaction committed F-4 S-7MiB Ke·0 D·4528 T·37.380074ms
+17:13:13.473437 table@remove removed @38
+17:13:13.473805 table@remove removed @36
+17:13:13.474171 table@remove removed @34
+17:13:13.474251 table@remove removed @30
+17:13:13.474311 table@remove removed @29
+17:17:31.428852 db@close closing
+17:17:31.428917 db@close done T·64.365µs
+=============== Aug 14, 2017 (UTC) ===============
+17:18:31.116515 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:18:31.117508 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+17:18:31.117523 db@open opening
+17:18:31.117593 journal@recovery F·1
+17:18:31.117995 journal@recovery recovering @37
+17:18:31.159760 memdb@flush created L0@40 N·1174 S·1MiB "\x04id,v23126":"Zco..ame,v21967"
+17:18:31.160562 version@stat F·[1 1] S·1MiB[1MiB 20KiB] Sc·[0.25 0.00]
+17:18:31.161207 db@janitor F·4 G·0
+17:18:31.161232 db@open done T·43.700101ms
+                                                                            =============== Aug 14, 2017 (UTC) ===============
+17:19:14.530385 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:19:14.531277 version@stat F·[1 1] S·1MiB[1MiB 20KiB] Sc·[0.25 0.00]
+17:19:14.531295 db@open opening
+17:19:14.531352 journal@recovery F·1
+17:19:14.531847 journal@recovery recovering @41
+17:19:14.537725 version@stat F·[1 1] S·1MiB[1MiB 20KiB] Sc·[0.25 0.00]
+17:19:14.538250 db@janitor F·4 G·0
+17:19:14.538281 db@open done T·6.976824ms
+17:23:59.581419 memdb@flush N·1357 S·3MiB
+17:23:59.608557 memdb@flush created L0@46 N·1357 S·2MiB "\x04id,v24484":"Zco..ame,v23137"
+17:23:59.608631 version@stat F·[2 1] S·4MiB[4MiB 20KiB] Sc·[0.50 0.00]
+17:23:59.610496 memdb@flush committed F·1 T·29.035958ms
+17:23:59.611711 journal@remove removed @43

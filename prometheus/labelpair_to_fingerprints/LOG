@@ -1,0 +1,1398 @@
+=============== Jul 10, 2017 (UTC) ===============
+08:14:58.631242 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:14:58.631685 db@open opening
+08:14:58.633303 version@stat F·[] S·0B[] Sc·[]
+08:14:58.660396 db@janitor F·2 G·0
+08:14:58.660461 db@open done T·28.761618ms
+=============== Jul 11, 2017 (UTC) ===============
+17:06:04.836846 memdb@flush N·920 S·3MiB
+17:06:04.861632 memdb@flush created L0@3 N·920 S·3MiB "\x04id\x02/,v800":"Zco..zer,v503"
+17:06:04.861716 version@stat F·[1] S·3MiB[3MiB] Sc·[0.25]
+17:06:04.863533 memdb@flush committed F·1 T·26.602491ms
+17:06:04.864647 journal@remove removed @1
+17:06:37.596436 memdb@flush N·143 S·3MiB
+17:06:37.613147 memdb@flush created L0@5 N·143 S·3MiB "\x04id\x02/,v1054":"Zco..ker,v941"
+17:06:37.613208 version@stat F·[2] S·7MiB[7MiB] Sc·[0.50]
+17:06:37.614875 memdb@flush committed F·1 T·18.37507ms
+17:06:37.615909 journal@remove removed @2
+17:07:06.694745 memdb@flush N·149 S·3MiB
+17:07:06.716218 memdb@flush created L0@7 N·149 S·3MiB "\x04id..ker,v1069":"Zco..zer,v1139"
+17:07:06.716305 version@stat F·[3] S·11MiB[11MiB] Sc·[0.75]
+17:07:06.720654 memdb@flush committed F·1 T·25.796939ms
+17:07:06.721872 journal@remove removed @4
+17:07:35.749086 memdb@flush N·128 S·3MiB
+17:07:35.780043 memdb@flush created L0@9 N·128 S·3MiB "\x04id..ice,v1328":"Zco..zer,v1320"
+17:07:35.780118 version@stat F·[4] S·15MiB[15MiB] Sc·[1.00]
+17:07:35.781782 memdb@flush committed F·1 T·32.645974ms
+17:07:35.782890 journal@remove removed @6
+17:07:35.782953 table@compaction L0·4 -> L1·0 S·15MiB Q·1353
+17:07:35.804451 table@build created L1@10 N·620 S·1MiB "\x04id\x02/,v1054":"Zco..zer,v1320"
+17:07:35.804529 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:07:35.806174 table@compaction committed F-3 S-14MiB Ke·0 D·720 T·23.18331ms
+17:07:35.807674 table@remove removed @9
+17:07:35.809476 table@remove removed @7
+17:07:35.810164 table@remove removed @5
+17:07:35.810806 table@remove removed @3
+17:08:02.847739 memdb@flush N·155 S·3MiB
+17:08:02.899284 memdb@flush created L0@12 N·155 S·3MiB "\x04id..ice,v1464":"Zco..sor,v1439"
+17:08:02.899356 version@stat F·[1 1] S·5MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:08:02.901060 memdb@flush committed F·1 T·53.247246ms
+17:08:02.901977 journal@remove removed @8
+17:08:27.903179 memdb@flush N·148 S·3MiB
+17:08:27.943840 memdb@flush created L0@14 N·148 S·3MiB "\x04id\x02/,v1544":"Zco..eus,v1511"
+17:08:27.943950 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:08:27.946927 memdb@flush committed F·1 T·43.627558ms
+17:08:27.948513 journal@remove removed @11
+17:08:54.455847 memdb@flush N·142 S·3MiB
+17:08:54.495165 memdb@flush created L0@16 N·142 S·3MiB "\x04id\x02/,v1662":"Zco..zer,v1746"
+17:08:54.495249 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:08:54.496798 memdb@flush committed F·1 T·40.622518ms
+17:08:54.498098 journal@remove removed @13
+17:09:27.507061 memdb@flush N·148 S·3MiB
+17:09:27.527571 memdb@flush created L0@18 N·148 S·3MiB "\x04id..ice,v1861":"Zco..eus,v1852"
+17:09:27.527651 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:09:27.529307 memdb@flush committed F·1 T·22.186641ms
+17:09:27.530547 journal@remove removed @15
+17:09:27.530616 table@compaction L0·4 -> L1·1 S·16MiB Q·1938
+17:09:27.593073 table@build created L1@19 N·620 S·1MiB "\x04id\x02/,v1662":"Zco..zer,v1746"
+17:09:27.593153 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:09:27.594821 table@compaction committed F-4 S-15MiB Ke·0 D·593 T·64.171142ms
+17:09:27.596624 table@remove removed @18
+17:09:27.597670 table@remove removed @16
+17:09:27.598576 table@remove removed @14
+17:09:27.599568 table@remove removed @12
+17:09:27.599943 table@remove removed @10
+17:09:59.066830 memdb@flush N·104 S·3MiB
+17:09:59.100995 memdb@flush created L0@21 N·104 S·3MiB "\x04id\x02/,v2027":"Zco..ker,v1982"
+17:09:59.101065 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:09:59.102666 memdb@flush committed F·1 T·35.805947ms
+17:09:59.103746 journal@remove removed @17
+17:10:32.607324 memdb@flush N·145 S·3MiB
+17:10:32.625673 memdb@flush created L0@23 N·145 S·4MiB "\x04id\x02/,v2165":"Zco..eus,v2056"
+17:10:32.625733 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:10:32.627422 memdb@flush committed F·1 T·20.053755ms
+17:10:32.628280 journal@remove removed @20
+17:11:06.652675 memdb@flush N·113 S·3MiB
+17:11:06.680319 memdb@flush created L0@25 N·113 S·3MiB "\x04id\x02/,v2287":"Zco..zer,v2230"
+17:11:06.680398 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:11:06.683840 memdb@flush committed F·1 T·31.12333ms
+17:11:06.685040 journal@remove removed @22
+17:11:33.720431 memdb@flush N·132 S·3MiB
+17:11:33.804780 memdb@flush created L0@27 N·132 S·3MiB "\x04id\x02/,v2420":"Zco..sor,v2356"
+17:11:33.804880 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:11:33.806663 memdb@flush committed F·1 T·86.172245ms
+17:11:33.808338 journal@remove removed @24
+17:11:33.808462 table@compaction L0·4 -> L1·1 S·16MiB Q·2431
+17:11:33.830676 table@build created L1@28 N·620 S·1MiB "\x04id\x02/,v2420":"Zco..zer,v2273"
+17:11:33.831148 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:11:33.834984 table@compaction committed F-4 S-15MiB Ke·0 D·494 T·26.344779ms
+17:11:33.836435 table@remove removed @27
+17:11:33.837834 table@remove removed @25
+17:11:33.838673 table@remove removed @23
+17:11:33.839792 table@remove removed @21
+17:11:33.840221 table@remove removed @19
+17:12:07.271799 memdb@flush N·125 S·3MiB
+17:12:07.298762 memdb@flush created L0@30 N·125 S·3MiB "\x04id\x02/,v2511":"Zco..zer,v2538"
+17:12:07.298864 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:12:07.300585 memdb@flush committed F·1 T·28.743291ms
+17:12:07.301493 journal@remove removed @26
+17:12:36.314017 memdb@flush N·116 S·3MiB
+17:12:36.366729 memdb@flush created L0@32 N·116 S·3MiB "\x04id..ker,v2627":"Zco..ult,v2553"
+17:12:36.366801 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:12:36.368860 memdb@flush committed F·1 T·54.768241ms
+17:12:36.369857 journal@remove removed @29
+17:13:12.856762 memdb@flush N·147 S·3MiB
+17:13:12.878042 memdb@flush created L0@34 N·147 S·3MiB "\x04id\x02/,v2813":"Zco..sor,v2701"
+17:13:12.878112 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:13:12.879781 memdb@flush committed F·1 T·22.967542ms
+17:13:12.880697 journal@remove removed @31
+17:13:38.904868 memdb@flush N·123 S·3MiB
+17:13:38.922222 memdb@flush created L0@36 N·123 S·4MiB "\x04id\x02/,v2931":"Zco..ana,v2897"
+17:13:38.922301 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:13:38.923953 memdb@flush committed F·1 T·19.024129ms
+17:13:38.925246 journal@remove removed @33
+17:13:38.925316 table@compaction L0·4 -> L1·1 S·16MiB Q·2942
+17:13:38.983249 table@build created L1@37 N·620 S·1MiB "\x04id\x02/,v2931":"Zco..zer,v2538"
+17:13:38.983323 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:13:38.984946 table@compaction committed F-4 S-15MiB Ke·0 D·511 T·59.594245ms
+17:13:38.985942 table@remove removed @36
+17:13:38.986880 table@remove removed @34
+17:13:38.987884 table@remove removed @32
+17:13:38.988674 table@remove removed @30
+17:13:38.988929 table@remove removed @28
+17:14:12.988715 memdb@flush N·109 S·3MiB
+17:14:13.036473 memdb@flush created L0@39 N·109 S·4MiB "\x04id\x02/,v2946":"Zco..zer,v2954"
+17:14:13.036894 version@stat F·[1 1] S·5MiB[4MiB 1MiB] Sc·[0.25 0.01]
+17:14:13.043179 memdb@flush committed F·1 T·54.291828ms
+17:14:13.044986 journal@remove removed @35
+17:14:50.061606 memdb@flush N·115 S·3MiB
+17:14:50.082039 memdb@flush created L0@41 N·115 S·3MiB "\x04id..ker,v3159":"Zco..sor,v3114"
+17:14:50.082114 version@stat F·[2 1] S·9MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:14:50.083779 memdb@flush committed F·1 T·21.784188ms
+17:14:50.084590 journal@remove removed @38
+17:15:14.613281 memdb@flush N·147 S·3MiB
+17:15:14.633700 memdb@flush created L0@43 N·147 S·3MiB "\x04id\x02/,v3224":"Zco..zer,v3181"
+17:15:14.633778 version@stat F·[3 1] S·13MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:15:14.635374 memdb@flush committed F·1 T·22.037918ms
+17:15:14.637780 journal@remove removed @40
+17:15:42.163472 memdb@flush N·103 S·3MiB
+17:15:42.219935 memdb@flush created L0@45 N·103 S·3MiB "\x04id\x02/,v3346":"Zco..sor,v3364"
+17:15:42.220094 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:15:42.222027 memdb@flush committed F·1 T·58.499266ms
+17:15:42.223388 journal@remove removed @42
+17:15:42.223455 table@compaction L0·4 -> L1·1 S·16MiB Q·3417
+17:15:42.248582 table@build created L1@46 N·620 S·1MiB "\x04id\x02/,v3346":"Zco..zer,v3181"
+17:15:42.248657 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:15:42.250330 table@compaction committed F-4 S-15MiB Ke·0 D·474 T·26.838937ms
+17:15:42.251398 table@remove removed @45
+17:15:42.252361 table@remove removed @43
+17:15:42.253350 table@remove removed @41
+17:15:42.254097 table@remove removed @39
+17:15:42.254455 table@remove removed @37
+17:16:16.226081 memdb@flush N·119 S·3MiB
+17:16:16.261229 memdb@flush created L0@48 N·119 S·3MiB "\x04id\x02/,v3495":"Zco..zer,v3428"
+17:16:16.261384 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:16:16.263384 memdb@flush committed F·1 T·37.213477ms
+17:16:16.264851 journal@remove removed @44
+17:16:44.842616 memdb@flush N·156 S·3MiB
+17:16:44.868260 memdb@flush created L0@50 N·156 S·3MiB "\x04id\x02/,v3661":"Zco..zer,v3546"
+17:16:44.868328 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:16:44.869849 memdb@flush committed F·1 T·27.193ms
+17:16:44.870784 journal@remove removed @47
+17:17:15.899885 memdb@flush N·125 S·3MiB
+17:17:15.923320 memdb@flush created L0@52 N·125 S·3MiB "\x04id..ice,v3782":"Zco..sor,v3694"
+17:17:15.923423 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:17:15.925135 memdb@flush committed F·1 T·25.183312ms
+17:17:15.926241 journal@remove removed @49
+17:17:45.481073 memdb@flush N·168 S·3MiB
+17:17:45.534425 memdb@flush created L0@54 N·168 S·3MiB "\x04id\x02/,v3917":"Zco..sor,v3888"
+17:17:45.534546 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:17:45.540692 memdb@flush committed F·1 T·59.56067ms
+17:17:45.542159 journal@remove removed @51
+17:17:45.542240 table@compaction L0·4 -> L1·1 S·16MiB Q·3985
+17:17:45.634744 table@build created L1@55 N·620 S·1MiB "\x04id\x02/,v3917":"Zco..zer,v3546"
+17:17:45.634835 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:17:45.637098 table@compaction committed F-4 S-15MiB Ke·0 D·568 T·94.8061ms
+17:17:45.638582 table@remove removed @54
+17:17:45.639632 table@remove removed @52
+17:17:45.640900 table@remove removed @50
+17:17:45.642544 table@remove removed @48
+17:17:45.643234 table@remove removed @46
+17:18:23.549667 memdb@flush N·121 S·3MiB
+17:18:23.572773 memdb@flush created L0@57 N·121 S·3MiB "\x04id..ker,v4101":"Zco..ana,v4050"
+17:18:23.572859 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:18:23.576727 memdb@flush committed F·1 T·26.933655ms
+17:18:23.578587 journal@remove removed @53
+17:18:48.682403 memdb@flush N·148 S·3MiB
+17:18:49.373844 memdb@flush created L0@59 N·148 S·3MiB "\x04id..ker,v4137":"Zco..eus,v4207"
+17:18:49.373936 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:18:49.584210 memdb@flush committed F·1 T·901.763254ms
+17:18:49.585745 journal@remove removed @56
+17:19:14.752297 memdb@flush N·120 S·3MiB
+17:19:14.777427 memdb@flush created L0@61 N·120 S·3MiB "\x04id..ice,v4267":"Zco..ana,v4364"
+17:19:14.777809 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:19:14.779723 memdb@flush committed F·1 T·27.195363ms
+17:19:14.780687 journal@remove removed @58
+17:19:39.352139 memdb@flush N·155 S·3MiB
+17:19:39.438986 memdb@flush created L0@63 N·155 S·3MiB "\x04id..ice,v4409":"Zco..eus,v4444"
+17:19:39.439090 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:19:39.441017 memdb@flush committed F·1 T·88.775863ms
+17:19:39.443625 journal@remove removed @60
+17:19:39.443709 table@compaction L0·4 -> L1·1 S·16MiB Q·4536
+17:19:39.483045 table@build created L1@64 N·620 S·1MiB "\x04id\x02/,v3917":"Zco..zer,v3546"
+17:19:39.483146 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:19:39.485637 table@compaction committed F-4 S-15MiB Ke·0 D·544 T·41.864278ms
+17:19:39.487687 table@remove removed @63
+17:19:39.488796 table@remove removed @61
+17:19:39.489881 table@remove removed @59
+17:19:39.490680 table@remove removed @57
+17:19:39.490981 table@remove removed @55
+17:20:08.428729 memdb@flush N·166 S·3MiB
+17:20:08.459721 memdb@flush created L0@66 N·166 S·3MiB "\x04id\x02/,v4646":"Zco..zer,v4566"
+17:20:08.459928 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:20:08.462061 memdb@flush committed F·1 T·33.237514ms
+17:20:08.464277 journal@remove removed @62
+17:20:30.997981 memdb@flush N·131 S·3MiB
+17:20:31.021405 memdb@flush created L0@68 N·131 S·3MiB "\x04id\x02/,v4821":"Zco..eus,v4745"
+17:20:31.021514 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:20:31.026496 memdb@flush committed F·1 T·28.456209ms
+17:20:31.028164 journal@remove removed @65
+17:20:59.113504 memdb@flush N·175 S·3MiB
+17:20:59.141191 memdb@flush created L0@70 N·175 S·3MiB "\x04id..ice,v4822":"Zco..zer,v4855"
+17:20:59.141677 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:20:59.143574 memdb@flush committed F·1 T·29.987849ms
+17:20:59.144927 journal@remove removed @67
+17:21:31.191386 memdb@flush N·129 S·3MiB
+17:21:31.223053 memdb@flush created L0@72 N·129 S·3MiB "\x04id..ice,v5069":"Zco..eus,v5064"
+17:21:31.223140 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:21:31.225465 memdb@flush committed F·1 T·33.96776ms
+17:21:31.227736 journal@remove removed @69
+17:21:31.227803 table@compaction L0·4 -> L1·1 S·16MiB Q·5138
+17:21:31.305485 table@build created L1@73 N·620 S·1MiB "\x04id\x02/,v4821":"Zco..zer,v4906"
+17:21:31.305579 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:21:31.307831 table@compaction committed F-4 S-15MiB Ke·0 D·601 T·79.917626ms
+17:21:31.309980 table@remove removed @72
+17:21:31.311015 table@remove removed @70
+17:21:31.312195 table@remove removed @68
+17:21:31.313134 table@remove removed @66
+17:21:31.313473 table@remove removed @64
+17:22:05.262080 memdb@flush N·143 S·3MiB
+17:22:05.758126 memdb@flush created L0@75 N·143 S·3MiB "\x04id..ice,v5199":"Zco..zer,v5250"
+17:22:05.758206 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:22:06.153977 memdb@flush committed F·1 T·891.829037ms
+17:22:06.155108 journal@remove removed @71
+17:22:39.821078 memdb@flush N·112 S·3MiB
+17:22:39.846305 memdb@flush created L0@77 N·112 S·3MiB "\x04id\x02/,v5336":"Zco..zer,v5369"
+17:22:39.846401 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:22:39.850748 memdb@flush committed F·1 T·29.593527ms
+17:22:39.851945 journal@remove removed @74
+17:23:09.878178 memdb@flush N·133 S·3MiB
+17:23:09.906382 memdb@flush created L0@79 N·133 S·3MiB "\x04id\x02/,v5421":"Zco..ana,v5459"
+17:23:09.906469 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:23:09.908162 memdb@flush committed F·1 T·29.943284ms
+17:23:09.909484 journal@remove removed @76
+17:23:40.455957 memdb@flush N·122 S·3MiB
+17:23:40.482927 memdb@flush created L0@81 N·122 S·3MiB "\x04id\x02/,v5576":"Zco..zer,v5537"
+17:23:40.483019 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:23:40.484989 memdb@flush committed F·1 T·28.949322ms
+17:23:40.487309 journal@remove removed @78
+17:23:40.487392 table@compaction L0·4 -> L1·1 S·16MiB Q·5639
+17:23:40.599364 table@build created L1@82 N·620 S·1MiB "\x04id\x02/,v5576":"Zco..zer,v5537"
+17:23:40.599446 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:23:40.601092 table@compaction committed F-4 S-15MiB Ke·0 D·510 T·113.663155ms
+17:23:40.603385 table@remove removed @81
+17:23:40.605029 table@remove removed @79
+17:23:40.606288 table@remove removed @77
+17:23:40.608703 table@remove removed @75
+17:23:40.609674 table@remove removed @73
+17:24:10.505794 memdb@flush N·104 S·3MiB
+17:24:10.526963 memdb@flush created L0@84 N·104 S·3MiB "\x04id\x02/,v5672":"Zco..ker,v5689"
+17:24:10.527050 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:24:10.528646 memdb@flush committed F·1 T·22.789153ms
+17:24:10.529573 journal@remove removed @80
+17:24:37.058548 memdb@flush N·127 S·3MiB
+17:24:37.079372 memdb@flush created L0@86 N·127 S·3MiB "\x04id\x02/,v5862":"Zco..eus,v5856"
+17:24:37.079455 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:24:37.082365 memdb@flush committed F·1 T·23.779007ms
+17:24:37.083369 journal@remove removed @83
+17:25:13.163013 memdb@flush N·144 S·3MiB
+17:25:13.187509 memdb@flush created L0@88 N·144 S·3MiB "\x04id\x02/,v5904":"Zco..sor,v5895"
+17:25:13.187598 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:25:13.190149 memdb@flush committed F·1 T·27.038166ms
+17:25:13.192710 journal@remove removed @85
+17:25:44.229813 memdb@flush N·154 S·3MiB
+17:25:44.323720 memdb@flush created L0@90 N·154 S·3MiB "\x04id..ope,v6145":"Zco..eus,v6080"
+17:25:44.325326 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:25:44.327738 memdb@flush committed F·1 T·97.857091ms
+17:25:44.328606 journal@remove removed @87
+17:25:44.328667 table@compaction L0·4 -> L1·1 S·16MiB Q·6181
+17:25:44.357512 table@build created L1@91 N·620 S·1MiB "\x04id\x02/,v5904":"Zco..zer,v5537"
+17:25:44.357918 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:25:44.360123 table@compaction committed F-4 S-15MiB Ke·0 D·529 T·31.361236ms
+17:25:44.361019 table@remove removed @90
+17:25:44.361815 table@remove removed @88
+17:25:44.362545 table@remove removed @86
+17:25:44.363502 table@remove removed @84
+17:25:44.363792 table@remove removed @82
+17:26:16.797463 memdb@flush N·155 S·3MiB
+17:26:16.819138 memdb@flush created L0@93 N·155 S·3MiB "\x04id\x02/,v6319":"Zco..zer,v6307"
+17:26:16.819219 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:26:16.821085 memdb@flush committed F·1 T·23.56475ms
+17:26:16.823019 journal@remove removed @89
+17:26:56.398326 memdb@flush N·114 S·3MiB
+17:26:56.423463 memdb@flush created L0@95 N·114 S·3MiB "\x04id\x02/,v6409":"Zco..eus,v6398"
+17:26:56.423627 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:26:56.425323 memdb@flush committed F·1 T·26.926636ms
+17:26:56.426145 journal@remove removed @92
+17:27:25.970885 memdb@flush N·140 S·3MiB
+17:27:25.993842 memdb@flush created L0@97 N·140 S·3MiB "\x04id..ice,v6535":"Zco..sor,v6555"
+17:27:25.993933 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:27:25.995463 memdb@flush committed F·1 T·24.519442ms
+17:27:25.996425 journal@remove removed @94
+17:27:54.534418 memdb@flush N·109 S·3MiB
+17:27:54.558577 memdb@flush created L0@99 N·109 S·3MiB "\x04id\x02/,v6653":"Zco..ker,v6604"
+17:27:54.558667 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:27:54.560467 memdb@flush committed F·1 T·25.990997ms
+17:27:54.561475 journal@remove removed @96
+17:27:54.561548 table@compaction L0·4 -> L1·1 S·16MiB Q·6686
+17:27:54.612428 table@build created L1@100 N·620 S·1MiB "\x04id\x02/,v6653":"Zco..zer,v6307"
+17:27:54.612528 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:27:54.614298 table@compaction committed F-4 S-15MiB Ke·0 D·518 T·52.69653ms
+17:27:54.615393 table@remove removed @99
+17:27:54.616363 table@remove removed @97
+17:27:54.617407 table@remove removed @95
+17:27:54.618233 table@remove removed @93
+17:27:54.618468 table@remove removed @91
+17:28:37.096860 memdb@flush N·130 S·3MiB
+17:28:37.317956 memdb@flush created L0@102 N·130 S·3MiB "\x04id..ice,v6735":"Zco..zer,v6726"
+17:28:37.318023 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:28:41.121445 memdb@flush committed F·1 T·4.024534911s
+17:28:41.122743 journal@remove removed @98
+17:29:08.152106 memdb@flush N·122 S·3MiB
+17:29:08.174084 memdb@flush created L0@104 N·122 S·3MiB "\x04id\x02/,v6905":"Zco..zer,v6833"
+17:29:08.174468 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:29:08.176501 memdb@flush committed F·1 T·24.291017ms
+17:29:08.177452 journal@remove removed @101
+17:29:32.725360 memdb@flush N·126 S·3MiB
+17:29:32.750073 memdb@flush created L0@106 N·126 S·3MiB "\x04id\x02/,v7016":"Zco..eus,v6946"
+17:29:32.750155 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:29:32.751781 memdb@flush committed F·1 T·26.364856ms
+17:29:32.754056 journal@remove removed @103
+17:30:05.786627 memdb@flush N·126 S·3MiB
+17:30:06.721524 memdb@flush created L0@108 N·126 S·3MiB "\x04id\x02/,v7141":"Zco..eus,v7105"
+17:30:06.721650 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:30:06.724535 memdb@flush committed F·1 T·937.764971ms
+17:30:06.725601 journal@remove removed @105
+17:30:06.725660 table@compaction L0·4 -> L1·1 S·16MiB Q·7191
+17:30:06.758526 table@build created L1@109 N·620 S·1MiB "\x04id\x02/,v7141":"Zco..zer,v6833"
+17:30:06.758628 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:30:06.760367 table@compaction committed F-4 S-15MiB Ke·0 D·504 T·34.665621ms
+17:30:06.761210 table@remove removed @108
+17:30:06.761961 table@remove removed @106
+17:30:06.762663 table@remove removed @104
+17:30:06.763696 table@remove removed @102
+17:30:06.764087 table@remove removed @100
+17:30:30.855159 memdb@flush N·130 S·3MiB
+17:30:30.897258 memdb@flush created L0@111 N·130 S·3MiB "\x04id\x02/,v7229":"Zco..ana,v7270"
+17:30:30.897330 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:30:30.898844 memdb@flush committed F·1 T·43.572242ms
+17:30:30.899908 journal@remove removed @107
+17:31:06.934942 memdb@flush N·128 S·3MiB
+17:31:06.996846 memdb@flush created L0@113 N·128 S·3MiB "\x04id\x02/,v7436":"Zco..sor,v7356"
+17:31:06.996910 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:31:06.998980 memdb@flush committed F·1 T·63.975962ms
+17:31:06.999928 journal@remove removed @110
+17:31:37.986269 memdb@flush N·119 S·3MiB
+17:31:38.007352 memdb@flush created L0@115 N·119 S·3MiB "\x04id..ker,v7459":"Zco..eus,v7504"
+17:31:38.007523 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:31:38.009305 memdb@flush committed F·1 T·22.893749ms
+17:31:38.010267 journal@remove removed @112
+17:32:09.044166 memdb@flush N·133 S·3MiB
+17:32:09.071774 memdb@flush created L0@117 N·133 S·3MiB "\x04id\x02/,v7675":"Zco..eus,v7695"
+17:32:09.071850 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:32:09.073548 memdb@flush committed F·1 T·29.325377ms
+17:32:09.074750 journal@remove removed @114
+17:32:09.074814 table@compaction L0·4 -> L1·1 S·16MiB Q·7710
+17:32:09.095027 table@build created L1@118 N·620 S·1MiB "\x04id\x02/,v7675":"Zco..zer,v6833"
+17:32:09.095114 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:32:09.096658 table@compaction committed F-4 S-15MiB Ke·0 D·510 T·21.808695ms
+17:32:09.097468 table@remove removed @117
+17:32:09.098382 table@remove removed @115
+17:32:09.099230 table@remove removed @113
+17:32:09.099867 table@remove removed @111
+17:32:09.100082 table@remove removed @109
+17:32:38.097221 memdb@flush N·144 S·3MiB
+17:32:38.116829 memdb@flush created L0@120 N·144 S·3MiB "\x04id..ice,v7720":"Zco..sor,v7779"
+17:32:38.116906 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:32:38.118464 memdb@flush committed F·1 T·21.171284ms
+17:32:38.119390 journal@remove removed @116
+17:33:10.146222 memdb@flush N·163 S·3MiB
+17:33:10.165264 memdb@flush created L0@122 N·163 S·3MiB "\x04id\x02/,v7869":"Zco..zer,v7850"
+17:33:10.165335 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:33:10.167047 memdb@flush committed F·1 T·20.789568ms
+17:33:10.167996 journal@remove removed @119
+17:33:45.693241 memdb@flush N·142 S·3MiB
+17:33:45.716651 memdb@flush created L0@124 N·142 S·3MiB "\x04id..ker,v8031":"Zco..zer,v8006"
+17:33:45.716728 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:33:45.718741 memdb@flush committed F·1 T·25.423641ms
+17:33:45.720023 journal@remove removed @121
+17:34:17.248068 memdb@flush N·149 S·3MiB
+17:34:17.265358 memdb@flush created L0@126 N·149 S·3MiB "\x04id..ker,v8196":"Zco..sor,v8179"
+17:34:17.265430 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:34:17.267126 memdb@flush committed F·1 T·19.026638ms
+17:34:17.268429 journal@remove removed @123
+17:34:17.268520 table@compaction L0·4 -> L1·1 S·16MiB Q·8307
+17:34:17.289677 table@build created L1@127 N·620 S·1MiB "\x04id\x02/,v7869":"Zco..zer,v8006"
+17:34:17.289752 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:34:17.291278 table@compaction committed F-4 S-15MiB Ke·0 D·598 T·22.70748ms
+17:34:17.292151 table@remove removed @126
+17:34:17.293022 table@remove removed @124
+17:34:17.293827 table@remove removed @122
+17:34:17.294643 table@remove removed @120
+17:34:17.294941 table@remove removed @118
+17:34:50.795426 memdb@flush N·153 S·3MiB
+17:34:50.813335 memdb@flush created L0@129 N·153 S·3MiB "\x04id\x02/,v8442":"Zco..sor,v8332"
+17:34:50.813408 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:34:50.815079 memdb@flush committed F·1 T·19.582294ms
+17:34:50.816360 journal@remove removed @125
+17:35:24.368544 memdb@flush N·129 S·3MiB
+17:35:24.439782 memdb@flush created L0@131 N·129 S·3MiB "\x04id\x02/,v8495":"Zco..zer,v8532"
+17:35:24.439863 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:35:24.441636 memdb@flush committed F·1 T·73.014542ms
+17:35:24.442909 journal@remove removed @128
+17:35:59.981053 memdb@flush N·187 S·3MiB
+17:36:00.027643 memdb@flush created L0@133 N·187 S·3MiB "\x04id..ice,v8634":"Zco..eus,v8688"
+17:36:00.027748 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:36:00.029362 memdb@flush committed F·1 T·48.249109ms
+17:36:00.030677 journal@remove removed @130
+17:36:36.038504 memdb@flush N·125 S·3MiB
+17:36:36.058767 memdb@flush created L0@135 N·125 S·3MiB "\x04id\x02/,v8886":"Zco..zer,v8791"
+17:36:36.058862 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:36:36.060448 memdb@flush committed F·1 T·21.884793ms
+17:36:36.061306 journal@remove removed @132
+17:36:36.061380 table@compaction L0·4 -> L1·1 S·16MiB Q·8893
+17:36:36.144504 table@build created L1@136 N·620 S·1MiB "\x04id\x02/,v8886":"Zco..zer,v8791"
+17:36:36.144777 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:36:36.146779 table@compaction committed F-4 S-15MiB Ke·0 D·594 T·85.333123ms
+17:36:36.147729 table@remove removed @135
+17:36:36.148561 table@remove removed @133
+17:36:36.149309 table@remove removed @131
+17:36:36.150025 table@remove removed @129
+17:36:36.150262 table@remove removed @127
+17:37:11.601655 memdb@flush N·114 S·3MiB
+17:37:11.620652 memdb@flush created L0@138 N·114 S·3MiB "\x04id\x02/,v9002":"Zco..sor,v8922"
+17:37:11.620730 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:37:11.622401 memdb@flush committed F·1 T·20.708505ms
+17:37:11.623365 journal@remove removed @134
+17:37:49.654139 memdb@flush N·160 S·3MiB
+17:37:49.673122 memdb@flush created L0@140 N·160 S·3MiB "\x04id..ker,v9020":"Zco..eus,v9066"
+17:37:49.673227 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:37:49.674930 memdb@flush committed F·1 T·20.721151ms
+17:37:49.675742 journal@remove removed @137
+17:38:19.700689 memdb@flush N·122 S·3MiB
+17:38:19.729176 memdb@flush created L0@142 N·122 S·3MiB "\x04id\x02/,v9176":"Zco..zer,v9215"
+17:38:19.729311 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:38:19.731977 memdb@flush committed F·1 T·31.192687ms
+17:38:19.734403 journal@remove removed @139
+20:48:21.507138 memdb@flush N·131 S·3MiB
+20:48:21.542609 memdb@flush created L0@144 N·131 S·3MiB "\x04id..ker,v9290":"Zco..zer,v9343"
+20:48:21.542708 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+20:48:21.544482 memdb@flush committed F·1 T·37.260501ms
+20:48:21.545446 journal@remove removed @141
+20:48:21.545505 table@compaction L0·4 -> L1·1 S·16MiB Q·9421
+20:48:21.574081 table@build created L1@145 N·620 S·1MiB "\x04id\x02/,v9176":"Zco..zer,v9343"
+20:48:21.574160 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+20:48:21.575798 table@compaction committed F-4 S-15MiB Ke·0 D·527 T·30.25898ms
+20:48:21.576624 table@remove removed @144
+20:48:21.577453 table@remove removed @142
+20:48:21.578243 table@remove removed @140
+20:48:21.579067 table@remove removed @138
+20:48:21.579343 table@remove removed @136
+20:49:07.076039 memdb@flush N·127 S·3MiB
+20:49:07.098312 memdb@flush created L0@147 N·127 S·3MiB "\x04id\x02/,v9453":"Zco..eus,v9517"
+20:49:07.098732 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+20:49:07.100758 memdb@flush committed F·1 T·24.589244ms
+20:49:07.101700 journal@remove removed @143
+20:49:39.635402 memdb@flush N·165 S·3MiB
+20:49:39.654226 memdb@flush created L0@149 N·165 S·4MiB "\x04id\x02/,v9671":"Zco..eus,v9637"
+20:49:39.654309 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+20:49:39.655988 memdb@flush committed F·1 T·20.524166ms
+20:49:39.657048 journal@remove removed @146
+20:50:11.192097 memdb@flush N·155 S·3MiB
+20:50:11.217774 memdb@flush created L0@151 N·155 S·3MiB "\x04id\x02/,v9841":"Zco..eus,v9812"
+20:50:11.217844 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+20:50:11.219559 memdb@flush committed F·1 T·27.40308ms
+20:50:11.220460 journal@remove removed @148
+20:50:47.751084 memdb@flush N·152 S·3MiB
+20:50:47.769595 memdb@flush created L0@153 N·152 S·3MiB "\x04id\x02/,v9931":"Zco..sor,v9891"
+20:50:47.769709 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+20:50:47.772447 memdb@flush committed F·1 T·21.233715ms
+20:50:47.774063 journal@remove removed @150
+20:50:47.774155 table@compaction L0·4 -> L1·1 S·16MiB Q·10018
+20:50:47.798954 table@build created L1@154 N·620 S·1MiB "\x04id\x02/,v9931":"Zco..zer,v9343"
+20:50:47.799317 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+20:50:47.801278 table@compaction committed F-4 S-15MiB Ke·0 D·599 T·27.009725ms
+20:50:47.802510 table@remove removed @153
+20:50:47.803605 table@remove removed @151
+20:50:47.806106 table@remove removed @149
+20:50:47.807468 table@remove removed @147
+20:50:47.807765 table@remove removed @145
+20:51:15.795645 memdb@flush N·135 S·3MiB
+20:51:15.819568 memdb@flush created L0@156 N·135 S·3MiB "\x04id\x02/,v10145":"Zco..zer,v10031"
+20:51:15.819652 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+20:51:15.821399 memdb@flush committed F·1 T·25.701139ms
+20:51:15.822501 journal@remove removed @152
+20:51:47.336096 memdb@flush N·154 S·3MiB
+20:51:47.358430 memdb@flush created L0@158 N·154 S·3MiB "\x04id\x02/,v10233":"Zco..zer,v10187"
+20:51:47.358513 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+20:51:47.360059 memdb@flush committed F·1 T·23.896688ms
+20:51:47.360962 journal@remove removed @155
+20:52:14.399289 memdb@flush N·151 S·3MiB
+20:52:14.437123 memdb@flush created L0@160 N·151 S·3MiB "\x04id\x02/,v10448":"Zco..zer,v10353"
+20:52:14.437205 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+20:52:14.438961 memdb@flush committed F·1 T·39.384003ms
+20:52:14.440255 journal@remove removed @157
+20:52:41.940002 memdb@flush N·136 S·3MiB
+20:52:41.967847 memdb@flush created L0@162 N·136 S·3MiB "\x04id\x02/,v10466":"Zco..zer,v10513"
+20:52:41.967945 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+20:52:41.969510 memdb@flush committed F·1 T·29.439131ms
+20:52:41.970729 journal@remove removed @159
+20:52:41.970799 table@compaction L0·4 -> L1·1 S·16MiB Q·10607
+20:52:42.041548 table@build created L1@163 N·620 S·1MiB "\x04id\x02/,v10466":"Zco..zer,v10568"
+20:52:42.041628 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+20:52:42.043397 table@compaction committed F-4 S-15MiB Ke·0 D·576 T·72.559407ms
+20:52:42.044466 table@remove removed @162
+20:52:42.045450 table@remove removed @160
+20:52:42.046425 table@remove removed @158
+20:52:42.047317 table@remove removed @156
+20:52:42.047567 table@remove removed @154
+20:53:15.504745 memdb@flush N·144 S·3MiB
+20:53:15.527308 memdb@flush created L0@165 N·144 S·3MiB "\x04id..ker,v10610":"Zco..sor,v10602"
+20:53:15.527385 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+20:53:15.528897 memdb@flush committed F·1 T·24.073703ms
+20:53:15.529886 journal@remove removed @161
+20:53:44.557963 memdb@flush N·129 S·3MiB
+20:53:44.575887 memdb@flush created L0@167 N·129 S·3MiB "\x04id\x02/,v10819":"Zco..sor,v10800"
+20:53:44.575962 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+20:53:44.578095 memdb@flush committed F·1 T·20.080295ms
+20:53:44.579365 journal@remove removed @164
+20:54:11.105653 memdb@flush N·166 S·3MiB
+20:54:11.125260 memdb@flush created L0@169 N·166 S·3MiB "\x04id..ker,v10961":"Zco..sor,v10982"
+20:54:11.125334 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+20:54:11.127582 memdb@flush committed F·1 T·21.868325ms
+20:54:11.129818 journal@remove removed @166
+20:54:45.172254 memdb@flush N·117 S·3MiB
+20:54:45.199901 memdb@flush created L0@171 N·117 S·3MiB "\x04id\x02/,v11138":"Zco..sor,v11089"
+20:54:45.199979 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+20:54:45.202036 memdb@flush committed F·1 T·29.629709ms
+20:54:45.204512 journal@remove removed @168
+20:54:45.204609 table@compaction L0·4 -> L1·1 S·16MiB Q·11151
+20:54:45.266636 table@build created L1@172 N·620 S·1022KiB "\x04id\x02/,v11138":"Zco..zer,v10568"
+20:54:45.266720 version@stat F·[0 1] S·1022KiB[0B 1022KiB] Sc·[0.00 0.01]
+20:54:45.268320 table@compaction committed F-4 S-15MiB Ke·0 D·556 T·63.672074ms
+20:54:45.269277 table@remove removed @171
+20:54:45.269947 table@remove removed @169
+20:54:45.270735 table@remove removed @167
+20:54:45.271460 table@remove removed @165
+20:54:45.271687 table@remove removed @163
+20:55:20.730755 memdb@flush N·142 S·3MiB
+20:55:20.752736 memdb@flush created L0@174 N·142 S·3MiB "\x04id\x02/,v11273":"Zco..sor,v11189"
+20:55:20.753145 version@stat F·[1 1] S·4MiB[3MiB 1022KiB] Sc·[0.25 0.01]
+20:55:20.755186 memdb@flush committed F·1 T·24.328728ms
+20:55:20.756178 journal@remove removed @170
+20:55:53.285346 memdb@flush N·148 S·3MiB
+20:55:53.307245 memdb@flush created L0@176 N·148 S·3MiB "\x04id\x02/,v11378":"Zco..eus,v11428"
+20:55:53.307329 version@stat F·[2 1] S·8MiB[7MiB 1022KiB] Sc·[0.50 0.01]
+20:55:53.309009 memdb@flush committed F·1 T·23.59424ms
+20:55:53.310064 journal@remove removed @173
+20:56:22.838559 memdb@flush N·174 S·3MiB
+20:56:22.878657 memdb@flush created L0@178 N·174 S·3MiB "\x04id\x02/,v11447":"Zco..sor,v11461"
+20:56:22.878739 version@stat F·[3 1] S·12MiB[11MiB 1022KiB] Sc·[0.75 0.01]
+20:56:22.880545 memdb@flush committed F·1 T·41.926813ms
+20:56:22.882722 journal@remove removed @175
+20:56:46.890978 memdb@flush N·169 S·3MiB
+20:56:46.912151 memdb@flush created L0@180 N·169 S·3MiB "\x04id\x02/,v11676":"Zco..zer,v11671"
+20:56:46.912212 version@stat F·[4 1] S·16MiB[15MiB 1022KiB] Sc·[1.00 0.01]
+20:56:46.913724 memdb@flush committed F·1 T·22.699398ms
+20:56:46.914829 journal@remove removed @177
+20:56:46.914912 table@compaction L0·4 -> L1·1 S·16MiB Q·11785
+20:56:46.939352 table@build created L1@181 N·620 S·1017KiB "\x04id\x02/,v11676":"Zco..zer,v11671"
+20:56:46.939477 version@stat F·[0 1] S·1017KiB[0B 1017KiB] Sc·[0.00 0.01]
+20:56:46.943012 table@compaction committed F-4 S-15MiB Ke·0 D·633 T·28.041434ms
+20:56:46.944175 table@remove removed @180
+20:56:46.945242 table@remove removed @178
+20:56:46.946418 table@remove removed @176
+20:56:46.947645 table@remove removed @174
+20:56:46.948175 table@remove removed @172
+20:57:20.441285 memdb@flush N·161 S·3MiB
+20:57:21.213880 memdb@flush created L0@183 N·161 S·3MiB "\x04id\x02/,v11828":"Zco..zer,v11813"
+20:57:21.213946 version@stat F·[1 1] S·4MiB[3MiB 1017KiB] Sc·[0.25 0.01]
+20:57:21.425224 memdb@flush committed F·1 T·983.880729ms
+20:57:21.426093 journal@remove removed @179
+20:57:53.000907 memdb@flush N·148 S·3MiB
+20:57:53.022533 memdb@flush created L0@185 N·148 S·3MiB "\x04id\x02/,v12069":"Zco..zer,v11952"
+20:57:53.022615 version@stat F·[2 1] S·8MiB[7MiB 1017KiB] Sc·[0.50 0.01]
+20:57:53.024310 memdb@flush committed F·1 T·23.364857ms
+20:57:53.025584 journal@remove removed @182
+20:58:23.552206 memdb@flush N·143 S·3MiB
+20:58:23.574508 memdb@flush created L0@187 N·143 S·3MiB "\x04id..ker,v12157":"Zco..zer,v12154"
+20:58:23.574579 version@stat F·[3 1] S·12MiB[11MiB 1017KiB] Sc·[0.75 0.01]
+20:58:23.576199 memdb@flush committed F·1 T·23.953822ms
+20:58:23.577393 journal@remove removed @184
+20:58:51.614616 memdb@flush N·164 S·3MiB
+20:58:51.633961 memdb@flush created L0@189 N·164 S·3MiB "\x04id..ice,v12271":"Zco..zer,v12388"
+20:58:51.634031 version@stat F·[4 1] S·16MiB[15MiB 1017KiB] Sc·[1.00 0.01]
+20:58:51.635640 memdb@flush committed F·1 T·20.979543ms
+20:58:51.636768 journal@remove removed @186
+20:58:51.636828 table@compaction L0·4 -> L1·1 S·16MiB Q·12399
+20:58:51.656201 table@build created L1@190 N·620 S·1012KiB "\x04id\x02/,v12069":"Zco..zer,v12388"
+20:58:51.656278 version@stat F·[0 1] S·1012KiB[0B 1012KiB] Sc·[0.00 0.01]
+20:58:51.657796 table@compaction committed F-4 S-15MiB Ke·0 D·616 T·20.93491ms
+20:58:51.658664 table@remove removed @189
+20:58:51.659512 table@remove removed @187
+20:58:51.660369 table@remove removed @185
+20:58:51.661205 table@remove removed @183
+20:58:51.661490 table@remove removed @181
+20:59:24.686568 memdb@flush N·143 S·3MiB
+20:59:25.182817 memdb@flush created L0@192 N·143 S·3MiB "\x04id\x02/,v12508":"Zco..ker,v12439"
+20:59:25.182942 version@stat F·[1 1] S·4MiB[3MiB 1012KiB] Sc·[0.25 0.01]
+20:59:25.369916 memdb@flush committed F·1 T·683.222812ms
+20:59:25.371264 journal@remove removed @188
+21:00:00.575764 db@close closing
+21:00:00.575947 db@close done T·185.441µs
+=============== Jul 23, 2017 (UTC) ===============
+11:44:11.001256 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:44:11.006308 version@stat F·[1 1] S·4MiB[3MiB 1012KiB] Sc·[0.25 0.01]
+11:44:11.006352 db@open opening
+11:44:11.006499 journal@recovery F·1
+11:44:11.008451 journal@recovery recovering @191
+11:44:11.064033 memdb@flush created L0@193 N·133 S·3MiB "\x04id\x02/,v12622":"Zco..sor,v12650"
+11:44:11.064522 version@stat F·[2 1] S·8MiB[7MiB 1012KiB] Sc·[0.50 0.01]
+11:44:11.066077 db@janitor F·5 G·0
+11:44:11.066101 db@open done T·59.738357ms
+09:45:04.444361 memdb@flush N·260 S·3MiB
+09:45:04.469020 memdb@flush created L0@197 N·260 S·3MiB "\x04id\x02/,v12865":"Zco..zer,v12710"
+09:45:04.469121 version@stat F·[3 1] S·12MiB[11MiB 1012KiB] Sc·[0.75 0.01]
+09:45:04.470927 memdb@flush committed F·1 T·26.503816ms
+09:45:04.472056 journal@remove removed @194
+09:46:02.057078 memdb@flush N·157 S·3MiB
+09:46:02.079296 memdb@flush created L0@199 N·157 S·3MiB "\x04id\x02/,v13004":"Zco..eus,v12941"
+09:46:02.079386 version@stat F·[4 1] S·16MiB[15MiB 1012KiB] Sc·[1.00 0.01]
+09:46:02.081524 memdb@flush committed F·1 T·24.397726ms
+09:46:02.082596 journal@remove removed @196
+09:46:02.082663 table@compaction L0·4 -> L1·1 S·16MiB Q·13094
+09:46:02.182953 table@build created L1@200 N·656 S·1MiB "\x04id\x02/,v13004":"Zco..zer,v12710"
+09:46:02.183063 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+09:46:02.184847 table@compaction committed F-4 S-15MiB Ke·0 D·657 T·102.124683ms
+09:46:02.185888 table@remove removed @199
+09:46:02.186921 table@remove removed @197
+09:46:02.188006 table@remove removed @193
+09:46:02.188717 table@remove removed @192
+09:46:02.188945 table@remove removed @190
+09:46:44.601787 memdb@flush N·154 S·3MiB
+09:46:44.621557 memdb@flush created L0@202 N·154 S·3MiB "\x04id..ker,v13154":"Zco..sor,v13148"
+09:46:44.621627 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+09:46:44.623470 memdb@flush committed F·1 T·21.628455ms
+09:46:44.624293 journal@remove removed @198
+09:47:18.680524 memdb@flush N·167 S·3MiB
+09:47:18.726318 memdb@flush created L0@204 N·167 S·3MiB "\x04id\x02/,v13383":"Zco..zer,v13332"
+09:47:18.726393 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+09:47:18.727911 memdb@flush committed F·1 T·47.324776ms
+09:47:18.728905 journal@remove removed @201
+09:47:53.756938 memdb@flush N·172 S·3MiB
+09:47:53.785158 memdb@flush created L0@206 N·172 S·3MiB "\x04id\x02/,v13523":"Zco..zer,v13544"
+09:47:53.785266 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+09:47:53.790020 memdb@flush committed F·1 T·33.007287ms
+09:47:53.792218 journal@remove removed @203
+09:48:29.820813 memdb@flush N·165 S·3MiB
+09:48:29.842578 memdb@flush created L0@208 N·165 S·3MiB "\x04id\x02/,v13599":"Zco..eus,v13661"
+09:48:29.842655 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+09:48:29.844351 memdb@flush committed F·1 T·23.460433ms
+09:48:29.845067 journal@remove removed @205
+09:48:29.845122 table@compaction L0·4 -> L1·1 S·16MiB Q·13760
+09:48:29.879556 table@build created L1@209 N·656 S·1MiB "\x04id\x02/,v13599":"Zco..zer,v13544"
+09:48:29.879709 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+09:48:29.881361 table@compaction committed F-4 S-15MiB Ke·0 D·658 T·36.197979ms
+09:48:29.882411 table@remove removed @208
+09:48:29.883314 table@remove removed @206
+09:48:29.883974 table@remove removed @204
+09:48:29.884606 table@remove removed @202
+09:48:29.884824 table@remove removed @200
+09:49:23.881101 memdb@flush N·172 S·3MiB
+09:49:23.902781 memdb@flush created L0@211 N·172 S·3MiB "\x04id\x02/,v13773":"Zco..sor,v13891"
+09:49:23.902849 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+09:49:23.904428 memdb@flush committed F·1 T·23.261731ms
+09:49:23.905215 journal@remove removed @207
+09:50:19.968881 memdb@flush N·165 S·3MiB
+09:50:20.002604 memdb@flush created L0@213 N·165 S·3MiB "\x04id\x02/,v14011":"Zco..zer,v13934"
+09:50:20.002673 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+09:50:20.004290 memdb@flush committed F·1 T·35.342157ms
+09:50:20.005051 journal@remove removed @210
+09:51:07.545208 memdb@flush N·130 S·3MiB
+09:51:07.563994 memdb@flush created L0@215 N·130 S·3MiB "\x04id\x02/,v14165":"Zco..ana,v14193"
+09:51:07.564060 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+09:51:07.565691 memdb@flush committed F·1 T·20.429029ms
+09:51:07.566489 journal@remove removed @212
+09:51:42.590270 memdb@flush N·178 S·3MiB
+09:51:42.608455 memdb@flush created L0@217 N·178 S·3MiB "\x04id\x02/,v14386":"Zco..zer,v14292"
+09:51:42.608527 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+09:51:42.610281 memdb@flush committed F·1 T·19.976741ms
+09:51:42.610978 journal@remove removed @214
+09:51:42.611024 table@compaction L0·4 -> L1·1 S·16MiB Q·14418
+09:51:42.668077 table@build created L1@218 N·656 S·1MiB "\x04id\x02/,v14386":"Zco..zer,v14306"
+09:51:42.668152 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+09:51:42.669872 table@compaction committed F-4 S-15MiB Ke·0 D·645 T·58.820439ms
+09:51:42.670740 table@remove removed @217
+09:51:42.671413 table@remove removed @215
+09:51:42.672300 table@remove removed @213
+09:51:42.673219 table@remove removed @211
+09:51:42.673535 table@remove removed @209
+09:52:10.137649 memdb@flush N·148 S·3MiB
+09:52:10.155039 memdb@flush created L0@220 N·148 S·3MiB "\x04id..ice,v14468":"Zco..zer,v14492"
+09:52:10.155093 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+09:52:10.156583 memdb@flush committed F·1 T·18.884469ms
+09:52:10.157570 journal@remove removed @216
+09:52:40.678989 memdb@flush N·134 S·3MiB
+09:52:40.698385 memdb@flush created L0@222 N·134 S·3MiB "\x04id..ice,v14603":"Zco..zer,v14607"
+09:52:40.698440 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+09:52:40.699972 memdb@flush committed F·1 T·20.942266ms
+09:52:40.700797 journal@remove removed @219
+09:53:27.725590 memdb@flush N·130 S·3MiB
+09:53:27.756287 memdb@flush created L0@224 N·130 S·3MiB "\x04id\x02/,v14794":"Zco..zer,v14778"
+09:53:27.756358 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+09:53:27.758000 memdb@flush committed F·1 T·32.361229ms
+09:53:27.758694 journal@remove removed @221
+09:53:57.767040 memdb@flush N·142 S·3MiB
+09:53:57.786219 memdb@flush created L0@226 N·142 S·3MiB "\x04id..ice,v14855":"Zco..sor,v14837"
+09:53:57.786289 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+09:53:57.787965 memdb@flush committed F·1 T·20.868008ms
+09:53:57.789070 journal@remove removed @223
+09:53:57.789128 table@compaction L0·4 -> L1·1 S·16MiB Q·14950
+09:53:57.822896 table@build created L1@227 N·656 S·1MiB "\x04id\x02/,v14794":"Zco..zer,v14778"
+09:53:57.822968 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+09:53:57.824688 table@compaction committed F-4 S-15MiB Ke·0 D·554 T·35.526581ms
+09:53:57.825665 table@remove removed @226
+09:53:57.826594 table@remove removed @224
+09:53:57.827538 table@remove removed @222
+09:53:57.828513 table@remove removed @220
+09:53:57.828832 table@remove removed @218
+09:54:33.811497 memdb@flush N·123 S·3MiB
+09:54:33.829266 memdb@flush created L0@229 N·123 S·3MiB "\x04id\x02/,v15007":"Zco..zer,v14977"
+09:54:33.829337 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+09:54:33.831105 memdb@flush committed F·1 T·19.538214ms
+09:54:33.831915 journal@remove removed @225
+09:55:09.888691 memdb@flush N·129 S·3MiB
+09:55:09.908269 memdb@flush created L0@231 N·129 S·3MiB "\x04id..ope,v15123":"Zco..sor,v15086"
+09:55:09.908342 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+09:55:09.910047 memdb@flush committed F·1 T·21.302927ms
+09:55:09.911087 journal@remove removed @228
+09:55:42.432357 memdb@flush N·127 S·3MiB
+09:55:42.456150 memdb@flush created L0@233 N·127 S·3MiB "\x04id\x02/,v15269":"Zco..sor,v15220"
+09:55:42.456229 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+09:55:42.458697 memdb@flush committed F·1 T·26.270428ms
+09:55:42.459649 journal@remove removed @230
+09:56:17.979556 memdb@flush N·147 S·3MiB
+09:56:18.016413 memdb@flush created L0@235 N·147 S·3MiB "\x04id\x02/,v15465":"Zco..zer,v15326"
+09:56:18.016477 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+09:56:18.018094 memdb@flush committed F·1 T·38.473039ms
+09:56:18.018980 journal@remove removed @232
+09:56:18.019036 table@compaction L0·4 -> L1·1 S·16MiB Q·15485
+09:56:18.040722 table@build created L1@236 N·656 S·1MiB "\x04id\x02/,v15465":"Zco..zer,v15366"
+09:56:18.040780 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+09:56:18.042400 table@compaction committed F-4 S-15MiB Ke·0 D·526 T·23.334784ms
+09:56:18.043202 table@remove removed @235
+09:56:18.043984 table@remove removed @233
+09:56:18.044734 table@remove removed @231
+09:56:18.045638 table@remove removed @229
+09:56:18.045894 table@remove removed @227
+09:56:53.533316 memdb@flush N·152 S·3MiB
+09:56:53.553525 memdb@flush created L0@238 N·152 S·3MiB "\x04id..ope,v15621":"Zco..ana,v15485"
+09:56:53.553590 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+09:56:53.555130 memdb@flush committed F·1 T·21.782048ms
+09:56:53.555865 journal@remove removed @234
+09:57:21.072652 memdb@flush N·150 S·3MiB
+09:57:21.091866 memdb@flush created L0@240 N·150 S·3MiB "\x04id..ice,v15769":"Zco..zer,v15673"
+09:57:21.091943 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+09:57:21.093472 memdb@flush committed F·1 T·20.764789ms
+09:57:21.094431 journal@remove removed @237
+09:57:51.120489 memdb@flush N·142 S·3MiB
+09:57:51.142152 memdb@flush created L0@242 N·142 S·4MiB "\x04id\x02/,v15888":"Zco..eus,v15906"
+09:57:51.142247 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+09:57:51.144172 memdb@flush committed F·1 T·23.642457ms
+09:57:51.145529 journal@remove removed @239
+09:58:31.183338 memdb@flush N·136 S·3MiB
+09:58:31.224484 memdb@flush created L0@244 N·136 S·3MiB "\x04id\x02/,v15977":"Zco..sor,v15929"
+09:58:31.224544 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+09:58:31.226517 memdb@flush committed F·1 T·43.111219ms
+09:58:31.227373 journal@remove removed @241
+09:58:31.227437 table@compaction L0·4 -> L1·1 S·16MiB Q·16061
+09:58:31.248389 table@build created L1@245 N·656 S·1MiB "\x04id\x02/,v15977":"Zco..zer,v15708"
+09:58:31.248457 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+09:58:31.249993 table@compaction committed F-4 S-15MiB Ke·0 D·580 T·22.519652ms
+09:58:31.250717 table@remove removed @244
+09:58:31.251390 table@remove removed @242
+09:58:31.252135 table@remove removed @240
+09:58:31.252866 table@remove removed @238
+09:58:31.253093 table@remove removed @236
+09:58:56.218047 memdb@flush N·160 S·3MiB
+09:58:56.251912 memdb@flush created L0@247 N·160 S·3MiB "\x04id\x02/,v16199":"Zco..zer,v16080"
+09:58:56.251995 version@stat F·[1 1] S·5MiB[3MiB 1MiB] Sc·[0.25 0.01]
+09:58:56.253726 memdb@flush committed F·1 T·35.616813ms
+09:58:56.254834 journal@remove removed @243
+09:59:32.264081 memdb@flush N·153 S·3MiB
+09:59:32.283272 memdb@flush created L0@249 N·153 S·3MiB "\x04id\x02/,v16243":"Zco..zer,v16314"
+09:59:32.283345 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+09:59:32.284949 memdb@flush committed F·1 T·20.814554ms
+09:59:32.285656 journal@remove removed @246
+10:00:03.808606 memdb@flush N·157 S·3MiB
+10:00:03.842201 memdb@flush created L0@251 N·157 S·3MiB "\x04id\x02/,v16421":"Zco..eus,v16435"
+10:00:03.842276 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+10:00:03.843798 memdb@flush committed F·1 T·35.126686ms
+10:00:03.844881 journal@remove removed @248
+10:00:36.356865 memdb@flush N·144 S·3MiB
+10:00:36.375561 memdb@flush created L0@253 N·144 S·3MiB "\x04id\x02/,v16612":"Zco..zer,v16638"
+10:00:36.375639 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+10:00:36.377189 memdb@flush committed F·1 T·20.247844ms
+10:00:36.378182 journal@remove removed @250
+10:00:36.378241 table@compaction L0·4 -> L1·1 S·16MiB Q·16670
+10:00:36.415293 table@build created L1@254 N·656 S·1MiB "\x04id\x02/,v16612":"Zco..zer,v16638"
+10:00:36.415360 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+10:00:36.416887 table@compaction committed F-4 S-15MiB Ke·0 D·614 T·38.614148ms
+10:00:36.418093 table@remove removed @253
+10:00:36.419149 table@remove removed @251
+10:00:36.420255 table@remove removed @249
+10:00:36.421437 table@remove removed @247
+10:00:36.421777 table@remove removed @245
+10:01:03.909471 memdb@flush N·135 S·3MiB
+10:01:03.933117 memdb@flush created L0@256 N·135 S·3MiB "\x04id..ker,v16768":"Zco..sor,v16748"
+10:01:03.933190 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+10:01:03.934700 memdb@flush committed F·1 T·25.175965ms
+10:01:03.935622 journal@remove removed @252
+10:01:36.451256 memdb@flush N·164 S·3MiB
+10:01:36.480855 memdb@flush created L0@258 N·164 S·3MiB "\x04id\x02/,v16870":"Zco..zer,v16901"
+10:01:36.480937 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+10:01:36.482585 memdb@flush committed F·1 T·31.262212ms
+10:01:36.483425 journal@remove removed @255
+10:02:05.495818 memdb@flush N·145 S·3MiB
+10:02:05.528183 memdb@flush created L0@260 N·145 S·3MiB "\x04id\x02/,v17052":"Zco..sor,v17101"
+10:02:05.528254 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+10:02:05.529846 memdb@flush committed F·1 T·33.982269ms
+10:02:05.530765 journal@remove removed @257
+10:02:44.043341 memdb@flush N·141 S·3MiB
+10:02:44.082779 memdb@flush created L0@262 N·141 S·3MiB "\x04id\x02/,v17239":"Zco..sor,v17161"
+10:02:44.082861 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+10:02:44.084417 memdb@flush committed F·1 T·40.957235ms
+10:02:44.085455 journal@remove removed @259
+10:02:44.085548 table@compaction L0·4 -> L1·1 S·16MiB Q·17255
+10:02:44.106204 table@build created L1@263 N·656 S·1MiB "\x04id\x02/,v17239":"Zco..zer,v16901"
+10:02:44.106280 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+10:02:44.107935 table@compaction committed F-4 S-15MiB Ke·0 D·585 T·22.342523ms
+10:02:44.108667 table@remove removed @262
+10:02:44.109384 table@remove removed @260
+10:02:44.110119 table@remove removed @258
+10:02:44.110809 table@remove removed @256
+10:02:44.111058 table@remove removed @254
+10:03:19.609448 memdb@flush N·137 S·3MiB
+10:03:19.634357 memdb@flush created L0@265 N·137 S·3MiB "\x04id..ice,v17311":"Zco..zer,v17299"
+10:03:19.634432 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+10:03:19.636065 memdb@flush committed F·1 T·26.541362ms
+10:03:19.636798 journal@remove removed @261
+10:03:52.151363 memdb@flush N·169 S·3MiB
+10:03:52.183211 memdb@flush created L0@267 N·169 S·3MiB "\x04id..ice,v17476":"Zco..eus,v17422"
+10:03:52.183275 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+10:03:52.184987 memdb@flush committed F·1 T·33.574312ms
+10:03:52.185741 journal@remove removed @264
+10:04:23.694557 memdb@flush N·153 S·3MiB
+10:04:23.713041 memdb@flush created L0@269 N·153 S·3MiB "\x04id..ope,v17665":"Zco..sor,v17601"
+10:04:23.713119 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+10:04:23.714838 memdb@flush committed F·1 T·20.202251ms
+10:04:23.715724 journal@remove removed @266
+10:05:02.236866 memdb@flush N·142 S·3MiB
+10:05:02.256304 memdb@flush created L0@271 N·142 S·4MiB "\x04id\x02/,v17805":"Zco..sor,v17749"
+10:05:02.256378 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+10:05:02.258158 memdb@flush committed F·1 T·21.233596ms
+10:05:02.259057 journal@remove removed @268
+10:05:02.259112 table@compaction L0·4 -> L1·1 S·16MiB Q·17860
+10:05:02.307689 table@build created L1@272 N·656 S·1MiB "\x04id\x02/,v17805":"Zco..zer,v17299"
+10:05:02.307748 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+10:05:02.309348 table@compaction committed F-4 S-15MiB Ke·0 D·601 T·50.201234ms
+10:05:02.310283 table@remove removed @271
+10:05:02.310945 table@remove removed @269
+10:05:02.311795 table@remove removed @267
+10:05:02.312498 table@remove removed @265
+10:05:02.312792 table@remove removed @263
+10:05:40.797588 memdb@flush N·171 S·3MiB
+10:05:40.819618 memdb@flush created L0@274 N·171 S·3MiB "\x04id\x02/,v17963":"Zco..ana,v17881"
+10:05:40.819716 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+10:05:40.821312 memdb@flush committed F·1 T·23.665706ms
+10:05:40.822500 journal@remove removed @270
+10:06:12.340131 memdb@flush N·167 S·3MiB
+10:06:12.385382 memdb@flush created L0@276 N·167 S·3MiB "\x04id\x02/,v18173":"Zco..eus,v18062"
+10:06:12.385442 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+10:06:12.387118 memdb@flush committed F·1 T·46.940041ms
+10:06:12.387946 journal@remove removed @273
+10:06:44.887535 memdb@flush N·154 S·3MiB
+10:06:44.908659 memdb@flush created L0@278 N·154 S·3MiB "\x04id\x02/,v18340":"Zco..zer,v18298"
+10:06:44.908729 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+10:06:44.910317 memdb@flush committed F·1 T·22.727103ms
+10:06:44.911365 journal@remove removed @275
+10:07:13.928842 memdb@flush N·125 S·3MiB
+10:07:13.945653 memdb@flush created L0@280 N·125 S·3MiB "\x04id..ker,v18462":"Zco..zer,v18422"
+10:07:13.945719 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+10:07:13.947310 memdb@flush committed F·1 T·18.417101ms
+10:07:13.948373 journal@remove removed @277
+10:07:13.948447 table@compaction L0·4 -> L1·1 S·16MiB Q·18482
+10:07:13.982400 table@build created L1@281 N·656 S·1MiB "\x04id\x02/,v18340":"Zco..zer,v18422"
+10:07:13.982473 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+10:07:13.984309 table@compaction committed F-4 S-15MiB Ke·0 D·617 T·35.82267ms
+10:07:13.985229 table@remove removed @280
+10:07:13.985971 table@remove removed @278
+10:07:13.986771 table@remove removed @276
+10:07:13.987677 table@remove removed @274
+10:07:13.987985 table@remove removed @272
+10:07:42.470511 memdb@flush N·163 S·3MiB
+10:07:42.529682 memdb@flush created L0@283 N·163 S·3MiB "\x04id..ice,v18487":"Zco..zer,v18471"
+10:07:42.529741 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+10:07:42.531361 memdb@flush committed F·1 T·60.808201ms
+10:07:42.532218 journal@remove removed @279
+10:08:08.018453 memdb@flush N·137 S·3MiB
+10:08:08.049847 memdb@flush created L0@285 N·137 S·3MiB "\x04id..ice,v18735":"Zco..zer,v18647"
+10:08:08.049917 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+10:08:08.051497 memdb@flush committed F·1 T·33.009305ms
+10:08:08.052426 journal@remove removed @282
+10:08:40.064046 memdb@flush N·166 S·3MiB
+10:08:40.093968 memdb@flush created L0@287 N·166 S·3MiB "\x04id\x02/,v18833":"Zco..eus,v18869"
+10:08:40.094047 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+10:08:40.095730 memdb@flush committed F·1 T·31.628923ms
+10:08:40.096609 journal@remove removed @284
+12:47:02.179483 memdb@flush N·130 S·3MiB
+12:47:02.199585 memdb@flush created L0@289 N·130 S·3MiB "\x04id..ope,v19049":"Zco..ana,v18988"
+12:47:02.199660 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+12:47:02.201716 memdb@flush committed F·1 T·22.17066ms
+12:47:02.202545 journal@remove removed @286
+12:47:02.202605 table@compaction L0·4 -> L1·1 S·16MiB Q·19079
+12:47:02.234170 table@build created L1@290 N·656 S·1020KiB "\x04id\x02/,v18833":"Zco..zer,v18685"
+12:47:02.234248 version@stat F·[0 1] S·1020KiB[0B 1020KiB] Sc·[0.00 0.01]
+12:47:02.235982 table@compaction committed F-4 S-15MiB Ke·0 D·596 T·33.338462ms
+12:47:02.236861 table@remove removed @289
+12:47:02.237700 table@remove removed @287
+12:47:02.238565 table@remove removed @285
+12:47:02.239414 table@remove removed @283
+12:47:02.239689 table@remove removed @281
+12:47:35.230477 memdb@flush N·123 S·3MiB
+12:47:35.257176 memdb@flush created L0@292 N·123 S·3MiB "\x04id\x02/,v19090":"Zco..eus,v19079"
+12:47:35.257242 version@stat F·[1 1] S·4MiB[3MiB 1020KiB] Sc·[0.25 0.01]
+12:47:35.258970 memdb@flush committed F·1 T·28.444936ms
+12:47:35.259829 journal@remove removed @288
+12:48:09.728774 db@close closing
+12:48:09.728900 db@close done T·124.428µs
+=============== Aug 14, 2017 (UTC) ===============
+18:58:49.886346 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:58:49.894449 version@stat F·[1 1] S·4MiB[3MiB 1020KiB] Sc·[0.25 0.01]
+18:58:49.894493 db@open opening
+18:58:49.894655 journal@recovery F·1
+18:58:49.895497 journal@recovery recovering @291
+18:58:49.937350 memdb@flush created L0@293 N·162 S·3MiB "\x04id..ope,v19347":"Zco..eus,v19271"
+18:58:49.938166 version@stat F·[2 1] S·8MiB[7MiB 1020KiB] Sc·[0.50 0.01]
+18:58:49.949940 db@janitor F·5 G·0
+18:58:49.949984 db@open done T·55.4764ms
+16:59:19.268099 memdb@flush N·149 S·3MiB
+16:59:19.289239 memdb@flush created L0@297 N·149 S·3MiB "\x04id\x02/,v19361":"Zco..zer,v19447"
+16:59:19.289374 version@stat F·[3 1] S·12MiB[11MiB 1020KiB] Sc·[0.75 0.01]
+16:59:19.291289 memdb@flush committed F·1 T·23.128475ms
+16:59:19.292514 journal@remove removed @294
+16:59:41.845050 memdb@flush N·169 S·3MiB
+16:59:41.866625 memdb@flush created L0@299 N·169 S·3MiB "\x04id\x02/,v19519":"Zco..eus,v19628"
+16:59:41.866752 version@stat F·[4 1] S·16MiB[15MiB 1020KiB] Sc·[1.00 0.01]
+16:59:41.868317 memdb@flush committed F·1 T·23.197941ms
+16:59:41.869584 journal@remove removed @296
+16:59:41.869696 table@compaction L0·4 -> L1·1 S·16MiB Q·19673
+16:59:41.976360 table@build created L1@300 N·665 S·1MiB "\x04id\x02/,v19519":"Zco..zer,v19447"
+16:59:41.976499 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+16:59:41.980363 table@compaction committed F-4 S-15MiB Ke·0 D·594 T·110.608259ms
+16:59:41.981522 table@remove removed @299
+16:59:41.982563 table@remove removed @297
+16:59:41.983589 table@remove removed @293
+16:59:41.984249 table@remove removed @292
+16:59:41.984482 table@remove removed @290
+17:00:08.785869 memdb@flush N·162 S·3MiB
+17:00:08.821676 memdb@flush created L0@302 N·162 S·3MiB "\x04id..ice,v19829":"Zco..sor,v19699"
+17:00:08.821762 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:00:08.823468 memdb@flush committed F·1 T·37.533198ms
+17:00:08.824318 journal@remove removed @298
+17:00:39.344555 memdb@flush N·158 S·3MiB
+17:00:39.418886 memdb@flush created L0@304 N·158 S·3MiB "\x04id\x02/,v19857":"Zco..eus,v19884"
+17:00:39.418954 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:00:39.423578 memdb@flush committed F·1 T·78.978457ms
+17:00:39.424816 journal@remove removed @301
+17:01:04.901635 memdb@flush N·175 S·3MiB
+17:01:04.925317 memdb@flush created L0@306 N·175 S·3MiB "\x04id\x02/,v20156":"Zco..sor,v20056"
+17:01:04.925520 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:01:04.928745 memdb@flush committed F·1 T·27.039693ms
+17:01:04.930213 journal@remove removed @303
+17:01:33.452049 memdb@flush N·126 S·3MiB
+17:01:33.482483 memdb@flush created L0@308 N·126 S·3MiB "\x04id\x02/,v20275":"Zco..ker,v20202"
+17:01:33.482557 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:01:33.487884 memdb@flush committed F·1 T·35.767711ms
+17:01:33.489132 journal@remove removed @305
+17:01:33.489207 table@compaction L0·4 -> L1·1 S·16MiB Q·20299
+17:01:33.536209 table@build created L1@309 N·665 S·1021KiB "\x04id\x02/,v20275":"Zco..zer,v19447"
+17:01:33.536299 version@stat F·[0 1] S·1021KiB[0B 1021KiB] Sc·[0.00 0.01]
+17:01:33.539307 table@compaction committed F-4 S-15MiB Ke·0 D·621 T·50.052628ms
+17:01:33.540014 table@remove removed @308
+17:01:33.540633 table@remove removed @306
+17:01:33.541236 table@remove removed @304
+17:01:33.541848 table@remove removed @302
+17:01:33.542054 table@remove removed @300
+17:02:00.503809 memdb@flush N·137 S·3MiB
+17:02:00.525589 memdb@flush created L0@311 N·137 S·3MiB "\x04id..ice,v20405":"Zco..ker,v20419"
+17:02:00.525670 version@stat F·[1 1] S·4MiB[3MiB 1021KiB] Sc·[0.25 0.01]
+17:02:00.529897 memdb@flush committed F·1 T·26.025282ms
+17:02:00.531341 journal@remove removed @307
+17:02:32.063217 memdb@flush N·133 S·3MiB
+17:02:32.084225 memdb@flush created L0@313 N·133 S·3MiB "\x04id..ice,v20428":"Zco..eus,v20456"
+17:02:32.084328 version@stat F·[2 1] S·8MiB[7MiB 1021KiB] Sc·[0.50 0.01]
+17:02:32.086427 memdb@flush committed F·1 T·23.10086ms
+17:02:32.087489 journal@remove removed @310
+17:02:54.427545 memdb@flush N·172 S·3MiB
+17:02:54.766866 memdb@flush created L0@315 N·172 S·3MiB "\x04id..ice,v20633":"Zco..eus,v20657"
+17:02:54.770886 version@stat F·[3 1] S·12MiB[11MiB 1021KiB] Sc·[0.75 0.01]
+17:02:54.949576 memdb@flush committed F·1 T·521.971027ms
+17:02:54.951233 journal@remove removed @312
+17:03:19.977663 memdb@flush N·141 S·3MiB
+17:03:20.016014 memdb@flush created L0@317 N·141 S·3MiB "\x04id\x02/,v20853":"Zco..ker,v20804"
+17:03:20.016138 version@stat F·[4 1] S·16MiB[15MiB 1021KiB] Sc·[1.00 0.01]
+17:03:20.017863 memdb@flush committed F·1 T·40.150839ms
+17:03:20.019173 journal@remove removed @314
+17:03:20.019295 table@compaction L0·4 -> L1·1 S·16MiB Q·20879
+17:03:20.055953 table@build created L1@318 N·665 S·1016KiB "\x04id\x02/,v20853":"Zco..zer,v19447"
+17:03:20.056054 version@stat F·[0 1] S·1016KiB[0B 1016KiB] Sc·[0.00 0.01]
+17:03:20.058191 table@compaction committed F-4 S-15MiB Ke·0 D·583 T·38.838512ms
+17:03:20.059240 table@remove removed @317
+17:03:20.060230 table@remove removed @315
+17:03:20.061232 table@remove removed @313
+17:03:20.062186 table@remove removed @311
+17:03:20.062534 table@remove removed @309
+17:03:47.076096 memdb@flush N·146 S·3MiB
+17:03:47.098882 memdb@flush created L0@320 N·146 S·4MiB "\x04id..ice,v20875":"Zco..zer,v20949"
+17:03:47.098952 version@stat F·[1 1] S·5MiB[4MiB 1016KiB] Sc·[0.25 0.01]
+17:03:47.103594 memdb@flush committed F·1 T·27.458076ms
+17:03:47.104510 journal@remove removed @316
+17:04:12.659049 memdb@flush N·172 S·3MiB
+17:04:13.862811 memdb@flush created L0@322 N·172 S·3MiB "\x04id..ice,v21023":"Zco..eus,v21081"
+17:04:13.862898 version@stat F·[2 1] S·8MiB[7MiB 1016KiB] Sc·[0.50 0.01]
+17:04:14.405138 memdb@flush committed F·1 T·1.746035301s
+17:04:14.406619 journal@remove removed @319
+17:04:37.758614 memdb@flush N·126 S·3MiB
+17:04:37.790502 memdb@flush created L0@324 N·126 S·3MiB "\x04id\x02/,v21224":"Zco..sor,v21285"
+17:04:37.790658 version@stat F·[3 1] S·12MiB[11MiB 1016KiB] Sc·[0.75 0.01]
+17:04:37.796407 memdb@flush committed F·1 T·37.716841ms
+17:04:37.798596 journal@remove removed @321
+17:05:04.326730 memdb@flush N·153 S·3MiB
+17:05:04.348361 memdb@flush created L0@326 N·153 S·3MiB "\x04id\x02/,v21380":"Zco..zer,v21352"
+17:05:04.348428 version@stat F·[4 1] S·16MiB[15MiB 1016KiB] Sc·[1.00 0.01]
+17:05:04.352047 memdb@flush committed F·1 T·25.278316ms
+17:05:04.352936 journal@remove removed @323
+17:05:04.352995 table@compaction L0·4 -> L1·1 S·16MiB Q·21483
+17:05:04.408086 table@build created L1@327 N·665 S·1011KiB "\x04id\x02/,v21380":"Zco..zer,v21352"
+17:05:04.408185 version@stat F·[0 1] S·1011KiB[0B 1011KiB] Sc·[0.00 0.01]
+17:05:04.411367 table@compaction committed F-4 S-15MiB Ke·0 D·597 T·58.33266ms
+17:05:04.412155 table@remove removed @326
+17:05:04.412839 table@remove removed @324
+17:05:04.413566 table@remove removed @322
+17:05:04.416198 table@remove removed @320
+17:05:04.416511 table@remove removed @318
+17:05:32.383667 memdb@flush N·159 S·3MiB
+17:05:32.402938 memdb@flush created L0@329 N·159 S·3MiB "\x04id..ice,v21531":"Zco..eus,v21548"
+17:05:32.403016 version@stat F·[1 1] S·4MiB[3MiB 1011KiB] Sc·[0.25 0.01]
+17:05:32.405132 memdb@flush committed F·1 T·21.386158ms
+17:05:32.406876 journal@remove removed @325
+17:05:57.935690 memdb@flush N·120 S·3MiB
+17:05:57.959283 memdb@flush created L0@331 N·120 S·3MiB "\x04id\x02/,v21676":"Zco..sor,v21698"
+17:05:57.959376 version@stat F·[2 1] S·8MiB[7MiB 1011KiB] Sc·[0.50 0.01]
+17:05:57.964417 memdb@flush committed F·1 T·28.663086ms
+17:05:57.965974 journal@remove removed @328
+17:06:23.480177 memdb@flush N·137 S·3MiB
+17:06:23.506731 memdb@flush created L0@333 N·137 S·3MiB "\x04id\x02/,v21799":"Zco..sor,v21785"
+17:06:23.506849 version@stat F·[3 1] S·12MiB[11MiB 1011KiB] Sc·[0.75 0.01]
+17:06:23.508540 memdb@flush committed F·1 T·28.251903ms
+17:06:23.509840 journal@remove removed @330
+17:06:50.528019 memdb@flush N·124 S·3MiB
+17:06:50.547113 memdb@flush created L0@335 N·124 S·3MiB "\x04id..ice,v21954":"Zco..ote,v21928"
+17:06:50.547176 version@stat F·[4 1] S·16MiB[15MiB 1011KiB] Sc·[1.00 0.01]
+17:06:50.548767 memdb@flush committed F·1 T·20.709206ms
+17:06:50.549627 journal@remove removed @332
+17:06:50.549683 table@compaction L0·4 -> L1·1 S·16MiB Q·22014
+17:06:50.586149 table@build created L1@336 N·665 S·1007KiB "\x04id\x02/,v21799":"Zco..zer,v21352"
+17:06:50.586225 version@stat F·[0 1] S·1007KiB[0B 1007KiB] Sc·[0.00 0.01]
+17:06:50.587843 table@compaction committed F-4 S-15MiB Ke·0 D·540 T·38.127867ms
+17:06:50.588727 table@remove removed @335
+17:06:50.589587 table@remove removed @333
+17:06:50.590313 table@remove removed @331
+17:06:50.591310 table@remove removed @329
+17:06:50.591635 table@remove removed @327
+17:07:17.570656 memdb@flush N·156 S·3MiB
+17:07:17.588730 memdb@flush created L0@338 N·156 S·3MiB "\x04id\x02/,v22162":"Zco..zer,v22031"
+17:07:17.588810 version@stat F·[1 1] S·4MiB[3MiB 1007KiB] Sc·[0.25 0.01]
+17:07:17.590369 memdb@flush committed F·1 T·19.640721ms
+17:07:17.591278 journal@remove removed @334
+17:07:43.110071 memdb@flush N·154 S·3MiB
+17:07:43.127963 memdb@flush created L0@340 N·154 S·3MiB "\x04id..ker,v22195":"Zco..sor,v22227"
+17:07:43.128042 version@stat F·[2 1] S·8MiB[7MiB 1007KiB] Sc·[0.50 0.01]
+17:07:43.129679 memdb@flush committed F·1 T·19.543977ms
+17:07:43.130537 journal@remove removed @337
+17:08:12.179059 memdb@flush N·131 S·3MiB
+17:08:12.197738 memdb@flush created L0@342 N·131 S·3MiB "\x04id\x02/,v22401":"Zco..eus,v22412"
+17:08:12.197882 version@stat F·[3 1] S·12MiB[11MiB 1007KiB] Sc·[0.75 0.01]
+17:08:12.199533 memdb@flush committed F·1 T·20.328326ms
+17:08:12.200586 journal@remove removed @339
+17:08:37.756062 memdb@flush N·158 S·3MiB
+17:08:37.786023 memdb@flush created L0@344 N·158 S·3MiB "\x04id\x02/,v22596":"Zco..zer,v22506"
+17:08:37.786105 version@stat F·[4 1] S·16MiB[15MiB 1007KiB] Sc·[1.00 0.01]
+17:08:37.787616 memdb@flush committed F·1 T·31.497043ms
+17:08:37.788776 journal@remove removed @341
+17:08:37.788841 table@compaction L0·4 -> L1·1 S·16MiB Q·22614
+17:08:37.809368 table@build created L1@345 N·665 S·1001KiB "\x04id\x02/,v22596":"Zco..zer,v22506"
+17:08:37.809455 version@stat F·[0 1] S·1001KiB[0B 1001KiB] Sc·[0.00 0.01]
+17:08:37.811053 table@compaction committed F-4 S-15MiB Ke·0 D·599 T·22.176945ms
+17:08:37.812210 table@remove removed @344
+17:08:37.813143 table@remove removed @342
+17:08:37.814117 table@remove removed @340
+17:08:37.814960 table@remove removed @338
+17:08:37.815314 table@remove removed @336
+17:09:03.311240 memdb@flush N·177 S·3MiB
+17:09:03.901799 memdb@flush created L0@347 N·177 S·3MiB "\x04id..ice,v22659":"Zco..ana,v22746"
+17:09:03.901876 version@stat F·[1 1] S·4MiB[3MiB 1001KiB] Sc·[0.25 0.01]
+17:09:04.089215 memdb@flush committed F·1 T·777.899937ms
+17:09:04.090438 journal@remove removed @343
+17:09:31.891847 memdb@flush N·120 S·3MiB
+17:09:31.915935 memdb@flush created L0@349 N·120 S·3MiB "\x04id\x02/,v22813":"Zco..ana,v22793"
+17:09:31.916095 version@stat F·[2 1] S·8MiB[7MiB 1001KiB] Sc·[0.50 0.01]
+17:09:31.918449 memdb@flush committed F·1 T·26.237597ms
+17:09:31.919860 journal@remove removed @346
+17:09:58.953133 memdb@flush N·128 S·3MiB
+17:09:58.997787 memdb@flush created L0@351 N·128 S·3MiB "\x04id\x02/,v23033":"Zco..sor,v22917"
+17:09:58.997912 version@stat F·[3 1] S·12MiB[11MiB 1001KiB] Sc·[0.75 0.01]
+17:09:58.999837 memdb@flush committed F·1 T·46.630016ms
+17:09:59.001354 journal@remove removed @348
+17:10:26.587619 memdb@flush N·142 S·3MiB
+17:10:26.609218 memdb@flush created L0@353 N·142 S·3MiB "\x04id\x02/,v23100":"Zco..sor,v23089"
+17:10:26.609339 version@stat F·[4 1] S·16MiB[15MiB 1001KiB] Sc·[1.00 0.01]
+17:10:26.611075 memdb@flush committed F·1 T·23.182654ms
+17:10:26.612408 journal@remove removed @350
+17:10:26.612514 table@compaction L0·4 -> L1·1 S·16MiB Q·23180
+17:10:26.641489 table@build created L1@354 N·665 S·997KiB "\x04id\x02/,v23100":"Zco..zer,v22506"
+17:10:26.641561 version@stat F·[0 1] S·997KiB[0B 997KiB] Sc·[0.00 0.01]
+17:10:26.643273 table@compaction committed F-4 S-15MiB Ke·0 D·567 T·30.716987ms
+17:10:26.644298 table@remove removed @353
+17:10:26.645204 table@remove removed @351
+17:10:26.646129 table@remove removed @349
+17:10:26.646907 table@remove removed @347
+17:10:26.647089 table@remove removed @345
+17:10:57.133187 memdb@flush N·122 S·3MiB
+17:10:57.163925 memdb@flush created L0@356 N·122 S·3MiB "\x04id..ice,v23221":"Zco..eus,v23253"
+17:10:57.164008 version@stat F·[1 1] S·4MiB[3MiB 997KiB] Sc·[0.25 0.01]
+17:10:57.165691 memdb@flush committed F·1 T·32.459969ms
+17:10:57.166588 journal@remove removed @352
+17:11:25.186762 memdb@flush N·141 S·3MiB
+17:11:25.258004 memdb@flush created L0@358 N·141 S·3MiB "\x04id\x02/,v23403":"Zco..zer,v23337"
+17:11:25.258074 version@stat F·[2 1] S·8MiB[7MiB 997KiB] Sc·[0.50 0.01]
+17:11:25.259732 memdb@flush committed F·1 T·72.902658ms
+17:11:25.260630 journal@remove removed @355
+17:11:55.729579 memdb@flush N·147 S·3MiB
+17:11:57.096232 memdb@flush created L0@360 N·147 S·3MiB "\x04id\x02/,v23576":"Zco..sor,v23570"
+17:11:57.096302 version@stat F·[3 1] S·12MiB[11MiB 997KiB] Sc·[0.75 0.01]
+17:11:57.467535 memdb@flush committed F·1 T·1.737886155s
+17:11:57.468424 journal@remove removed @357
+17:12:24.301758 memdb@flush N·131 S·3MiB
+17:12:24.320805 memdb@flush created L0@362 N·131 S·3MiB "\x04id..ice,v23674":"Zco..zer,v23713"
+17:12:24.320876 version@stat F·[4 1] S·16MiB[15MiB 997KiB] Sc·[1.00 0.01]
+17:12:24.322476 memdb@flush committed F·1 T·20.666409ms
+17:12:24.323665 journal@remove removed @359
+17:12:24.323732 table@compaction L0·4 -> L1·1 S·16MiB Q·23722
+17:12:24.370786 table@build created L1@363 N·665 S·992KiB "\x04id\x02/,v23576":"Zco..zer,v23713"
+17:12:24.370860 version@stat F·[0 1] S·992KiB[0B 992KiB] Sc·[0.00 0.01]
+17:12:24.372374 table@compaction committed F-4 S-15MiB Ke·0 D·541 T·48.606397ms
+17:12:24.373413 table@remove removed @362
+17:12:24.374335 table@remove removed @360
+17:12:24.375277 table@remove removed @358
+17:12:24.376226 table@remove removed @356
+17:12:24.376516 table@remove removed @354
+17:12:49.856359 memdb@flush N·150 S·3MiB
+17:12:49.882909 memdb@flush created L0@365 N·150 S·3MiB "\x04id..ice,v23864":"Zco..ker,v23837"
+17:12:49.883021 version@stat F·[1 1] S·4MiB[3MiB 992KiB] Sc·[0.25 0.01]
+17:12:49.884859 memdb@flush committed F·1 T·28.435398ms
+17:12:49.886016 journal@remove removed @361
+17:13:16.906576 memdb@flush N·157 S·3MiB
+17:13:16.928234 memdb@flush created L0@367 N·157 S·3MiB "\x04id\x02/,v23954":"Zco..eus,v24001"
+17:13:16.928302 version@stat F·[2 1] S·8MiB[7MiB 992KiB] Sc·[0.50 0.01]
+17:13:16.929899 memdb@flush committed F·1 T·23.263627ms
+17:13:16.930807 journal@remove removed @364
+17:13:46.952045 memdb@flush N·119 S·3MiB
+17:13:46.969992 memdb@flush created L0@369 N·119 S·3MiB "\x04id..ker,v24134":"Zco..sor,v24114"
+17:13:46.970065 version@stat F·[3 1] S·12MiB[11MiB 992KiB] Sc·[0.75 0.01]
+17:13:46.971734 memdb@flush committed F·1 T·19.652163ms
+17:13:46.972706 journal@remove removed @366
+17:14:20.518364 memdb@flush N·141 S·3MiB
+17:14:20.539431 memdb@flush created L0@371 N·141 S·3MiB "\x04id..ice,v24205":"Zco..eus,v24148"
+17:14:20.539496 version@stat F·[4 1] S·16MiB[15MiB 992KiB] Sc·[1.00 0.01]
+17:14:20.541116 memdb@flush committed F·1 T·22.6887ms
+17:14:20.541999 journal@remove removed @368
+17:14:20.542055 table@compaction L0·4 -> L1·1 S·16MiB Q·24290
+17:14:20.582668 table@build created L1@372 N·665 S·988KiB "\x04id\x02/,v23954":"Zco..zer,v23713"
+17:14:20.582759 version@stat F·[0 1] S·988KiB[0B 988KiB] Sc·[0.00 0.01]
+17:14:20.584390 table@compaction committed F-4 S-15MiB Ke·0 D·567 T·42.300964ms
+17:14:20.585445 table@remove removed @371
+17:14:20.586301 table@remove removed @369
+17:14:20.587138 table@remove removed @367
+17:14:20.587916 table@remove removed @365
+17:14:20.588176 table@remove removed @363
+17:14:50.068949 memdb@flush N·151 S·3MiB
+17:14:50.112407 memdb@flush created L0@374 N·151 S·3MiB "\x04id\x02/,v24394":"Zco..zer,v24345"
+17:14:50.112470 version@stat F·[1 1] S·4MiB[3MiB 988KiB] Sc·[0.25 0.01]
+17:14:50.114338 memdb@flush committed F·1 T·45.331991ms
+17:14:50.115597 journal@remove removed @370
+17:15:17.612110 memdb@flush N·173 S·3MiB
+17:15:17.630471 memdb@flush created L0@376 N·173 S·3MiB "\x04id..ice,v24529":"Zco..eus,v24477"
+17:15:17.630567 version@stat F·[2 1] S·8MiB[7MiB 988KiB] Sc·[0.50 0.01]
+17:15:17.633000 memdb@flush committed F·1 T·20.820282ms
+17:15:17.634119 journal@remove removed @373
+17:15:54.160002 memdb@flush N·137 S·3MiB
+17:15:54.179591 memdb@flush created L0@378 N·137 S·3MiB "\x04id\x02/,v24676":"Zco..zer,v24650"
+17:15:54.179668 version@stat F·[3 1] S·12MiB[11MiB 988KiB] Sc·[0.75 0.01]
+17:15:54.181196 memdb@flush committed F·1 T·21.130664ms
+17:15:54.182275 journal@remove removed @375
+17:16:26.728717 memdb@flush N·142 S·3MiB
+17:16:26.773550 memdb@flush created L0@380 N·142 S·3MiB "\x04id..ope,v24871":"Zco..eus,v24782"
+17:16:26.773636 version@stat F·[4 1] S·16MiB[15MiB 988KiB] Sc·[1.00 0.01]
+17:16:26.775321 memdb@flush committed F·1 T·46.552819ms
+17:16:26.777326 journal@remove removed @377
+17:16:26.777412 table@compaction L0·4 -> L1·1 S·16MiB Q·24892
+17:16:26.807975 table@build created L1@381 N·665 S·983KiB "\x04id\x02/,v24676":"Zco..zer,v24650"
+17:16:26.808507 version@stat F·[0 1] S·983KiB[0B 983KiB] Sc·[0.00 0.01]
+17:16:26.811084 table@compaction committed F-4 S-15MiB Ke·0 D·603 T·33.569476ms
+17:16:26.812470 table@remove removed @380
+17:16:26.816128 table@remove removed @378
+17:16:26.818619 table@remove removed @376
+17:16:26.821576 table@remove removed @374
+17:16:26.822070 table@remove removed @372
+17:16:55.279793 memdb@flush N·168 S·3MiB
+17:16:55.308483 memdb@flush created L0@383 N·168 S·4MiB "\x04id\x02/,v24995":"Zco..eus,v24989"
+17:16:55.308550 version@stat F·[1 1] S·4MiB[4MiB 983KiB] Sc·[0.25 0.01]
+17:16:55.310095 memdb@flush committed F·1 T·30.240167ms
+17:16:55.311206 journal@remove removed @379
+17:17:25.334940 memdb@flush N·136 S·3MiB
+17:17:25.357607 memdb@flush created L0@385 N·136 S·3MiB "\x04id\x02/,v25138":"Zco..sor,v25150"
+17:17:25.357688 version@stat F·[2 1] S·8MiB[7MiB 983KiB] Sc·[0.50 0.01]
+17:17:25.359230 memdb@flush committed F·1 T·24.219345ms
+17:17:25.360322 journal@remove removed @382
+17:17:31.428692 db@close closing
+17:17:31.428830 db@close done T·117.489µs
+=============== Aug 14, 2017 (UTC) ===============
+17:18:31.094915 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:18:31.097570 version@stat F·[2 1] S·8MiB[7MiB 983KiB] Sc·[0.50 0.01]
+17:18:31.097609 db@open opening
+17:18:31.097763 journal@recovery F·1
+17:18:31.100778 journal@recovery recovering @384
+17:18:31.114926 memdb@flush created L0@386 N·18 S·701KiB "\x04id..ice,v25194":"\x10in..080,v25192"
+17:18:31.115160 version@stat F·[3 1] S·9MiB[8MiB 983KiB] Sc·[0.75 0.01]
+17:18:31.115986 db@janitor F·6 G·0
+17:18:31.116017 db@open done T·18.396195ms
+                                                                            =============== Aug 14, 2017 (UTC) ===============
+17:19:14.523357 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:19:14.524613 version@stat F·[3 1] S·9MiB[8MiB 983KiB] Sc·[0.75 0.01]
+17:19:14.524629 db@open opening
+17:19:14.524697 journal@recovery F·1
+17:19:14.525233 journal@recovery recovering @387
+17:19:14.528200 version@stat F·[3 1] S·9MiB[8MiB 983KiB] Sc·[0.75 0.01]
+17:19:14.528900 db@janitor F·6 G·0
+17:19:14.528938 db@open done T·4.297379ms
+17:19:26.421685 table@compaction L0·3 -> L1·1 S·9MiB Q·25381
+17:19:26.470246 table@build created L1@391 N·665 S·981KiB "\x04id\x02/,v25138":"Zco..zer,v24650"
+17:19:26.470373 version@stat F·[0 1] S·981KiB[0B 981KiB] Sc·[0.00 0.01]
+17:19:26.472616 table@compaction committed F-3 S-8MiB Ke·0 D·322 T·50.860815ms
+17:19:26.472839 table@remove removed @386
+17:19:26.473547 table@remove removed @385
+17:19:26.474295 table@remove removed @383
+17:19:26.474677 table@remove removed @381
+17:19:42.096520 memdb@flush N·279 S·3MiB
+17:19:42.116628 memdb@flush created L0@393 N·279 S·3MiB "\x04id\x02/,v25469":"Zco..zer,v25275"
+17:19:42.116692 version@stat F·[1 1] S·4MiB[3MiB 981KiB] Sc·[0.25 0.01]
+17:19:42.118404 memdb@flush committed F·1 T·21.843662ms
+17:19:42.119501 journal@remove removed @389
+17:20:11.646982 memdb@flush N·155 S·3MiB
+17:20:11.667924 memdb@flush created L0@395 N·155 S·3MiB "\x04id\x02/,v25490":"Zco..eus,v25519"
+17:20:11.668003 version@stat F·[2 1] S·8MiB[7MiB 981KiB] Sc·[0.50 0.01]
+17:20:11.669635 memdb@flush committed F·1 T·22.590715ms
+17:20:11.670893 journal@remove removed @392
+17:20:40.199185 memdb@flush N·129 S·3MiB
+17:20:40.218807 memdb@flush created L0@397 N·129 S·3MiB "\x04id\x02/,v25740":"Zco..sor,v25691"
+17:20:40.218921 version@stat F·[3 1] S·12MiB[11MiB 981KiB] Sc·[0.75 0.01]
+17:20:40.220643 memdb@flush committed F·1 T·21.382597ms
+17:20:40.221837 journal@remove removed @394
+17:21:10.626295 memdb@flush N·125 S·3MiB
+17:21:10.644016 memdb@flush created L0@399 N·125 S·3MiB "\x04id\x02/,v25847":"Zco..zer,v25881"
+17:21:10.644079 version@stat F·[4 1] S·16MiB[15MiB 981KiB] Sc·[1.00 0.01]
+17:21:10.645619 memdb@flush committed F·1 T·19.256372ms
+17:21:10.646443 journal@remove removed @396
+17:21:10.646521 table@compaction L0·4 -> L1·1 S·16MiB Q·25903
+17:21:10.698763 table@build created L1@400 N·701 S·1MiB "\x04id\x02/,v25847":"Zco..zer,v25881"
+17:21:10.698830 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:21:10.700355 table@compaction committed F-4 S-15MiB Ke·0 D·652 T·53.800837ms
+17:21:10.701075 table@remove removed @399
+17:21:10.701727 table@remove removed @397
+17:21:10.702474 table@remove removed @395
+17:21:10.703326 table@remove removed @393
+17:21:10.703581 table@remove removed @391
+17:21:34.692475 memdb@flush N·143 S·3MiB
+17:21:34.712499 memdb@flush created L0@402 N·143 S·3MiB "\x04id..ice,v26037":"Zco..eus,v25916"
+17:21:34.712590 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:21:34.714121 memdb@flush committed F·1 T·21.585359ms
+17:21:34.715381 journal@remove removed @398
+17:22:06.326440 memdb@flush N·149 S·3MiB
+17:22:06.368229 memdb@flush created L0@404 N·149 S·3MiB "\x04id..ker,v26073":"Zco..eus,v26134"
+17:22:06.368297 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:22:06.369944 memdb@flush committed F·1 T·43.444467ms
+17:22:06.370742 journal@remove removed @401
+17:22:33.879718 memdb@flush N·127 S·3MiB
+17:22:33.899341 memdb@flush created L0@406 N·127 S·3MiB "\x04id\x02/,v26224":"Zco..eus,v26200"
+17:22:33.899408 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:22:33.901181 memdb@flush committed F·1 T·21.399661ms
+17:22:33.902344 journal@remove removed @403
+17:23:00.432231 memdb@flush N·139 S·3MiB
+17:23:00.457220 memdb@flush created L0@408 N·139 S·3MiB "\x04id\x02/,v26395":"Zco..sor,v26367"
+17:23:00.457309 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:23:00.460083 memdb@flush committed F·1 T·27.73438ms
+17:23:00.462270 journal@remove removed @405
+17:23:00.462336 table@compaction L0·4 -> L1·1 S·16MiB Q·26462
+17:23:00.536121 table@build created L1@409 N·701 S·1MiB "\x04id\x02/,v26395":"Zco..zer,v25881"
+17:23:00.536209 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:23:00.538570 table@compaction committed F-4 S-15MiB Ke·0 D·558 T·76.150793ms
+17:23:00.539728 table@remove removed @408
+17:23:00.540649 table@remove removed @406
+17:23:00.541437 table@remove removed @404
+17:23:00.543977 table@remove removed @402
+17:23:00.544931 table@remove removed @400
+17:23:27.990384 memdb@flush N·124 S·3MiB
+17:23:28.030879 memdb@flush created L0@411 N·124 S·3MiB "\x04id..ope,v26467":"Zco..eus,v26559"
+17:23:28.030954 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:23:28.033380 memdb@flush committed F·1 T·42.96659ms
+17:23:28.034189 journal@remove removed @407
+17:23:54.546378 memdb@flush N·157 S·3MiB
+17:23:54.578845 memdb@flush created L0@413 N·157 S·3MiB "\x04id..ice,v26590":"Zco..zer,v26645"
+17:23:54.578929 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:23:54.580595 memdb@flush committed F·1 T·34.158895ms
+17:23:54.581775 journal@remove removed @410
+17:24:19.127908 memdb@flush N·165 S·3MiB
+17:24:19.157066 memdb@flush created L0@415 N·165 S·3MiB "\x04id..ice,v26761":"Zco..zer,v26749"
+17:24:19.157209 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:24:19.158882 memdb@flush committed F·1 T·30.926755ms
+17:24:19.160523 journal@remove removed @412
+17:24:45.681840 memdb@flush N·125 S·3MiB
+17:24:45.702000 memdb@flush created L0@417 N·125 S·3MiB "\x04id..ice,v26967":"Zco..dis,v26915"
+17:24:45.702085 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:24:45.703604 memdb@flush committed F·1 T·21.607013ms
+17:24:45.704464 journal@remove removed @414
+17:24:45.704519 table@compaction L0·4 -> L1·1 S·16MiB Q·27033
+17:24:45.741536 table@build created L1@418 N·701 S·1MiB "\x04id\x02/,v26395":"Zco..zer,v26872"
+17:24:45.741614 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+17:24:45.743115 table@compaction committed F-4 S-15MiB Ke·0 D·571 T·38.563426ms
+17:24:45.744007 table@remove removed @417
+17:24:45.744779 table@remove removed @415
+17:24:45.745535 table@remove removed @413
+17:24:45.746301 table@remove removed @411
+17:24:45.746566 table@remove removed @409
+17:25:12.239137 memdb@flush N·128 S·3MiB
+17:25:12.257712 memdb@flush created L0@420 N·128 S·3MiB "\x04id\x02/,v27118":"Zco..zer,v27137"
+17:25:12.257781 version@stat F·[1 1] S·4MiB[3MiB 1MiB] Sc·[0.25 0.01]
+17:25:12.259458 memdb@flush committed F·1 T·20.270776ms
+17:25:12.260586 journal@remove removed @416
+17:25:38.283144 memdb@flush N·172 S·3MiB
+17:25:38.303455 memdb@flush created L0@422 N·172 S·3MiB "\x04id\x02/,v27311":"Zco..zer,v27174"
+17:25:38.303852 version@stat F·[2 1] S·8MiB[7MiB 1MiB] Sc·[0.50 0.01]
+17:25:38.307240 memdb@flush committed F·1 T·23.896344ms
+17:25:38.309399 journal@remove removed @419
+17:26:05.830869 memdb@flush N·151 S·3MiB
+17:26:05.884998 memdb@flush created L0@424 N·151 S·4MiB "\x04id\x02/,v27405":"Zco..eus,v27351"
+17:26:05.885080 version@stat F·[3 1] S·12MiB[11MiB 1MiB] Sc·[0.75 0.01]
+17:26:05.886724 memdb@flush committed F·1 T·55.803534ms
+17:26:05.887881 journal@remove removed @421
+17:26:36.378610 memdb@flush N·157 S·3MiB
+17:26:36.415605 memdb@flush created L0@426 N·157 S·3MiB "\x04id\x02/,v27525":"Zco..sor,v27496"
+17:26:36.415694 version@stat F·[4 1] S·16MiB[15MiB 1MiB] Sc·[1.00 0.01]
+17:26:36.419514 memdb@flush committed F·1 T·40.838344ms
+17:26:36.420884 journal@remove removed @423
+17:26:36.421013 table@compaction L0·4 -> L1·1 S·16MiB Q·27640
+17:26:36.480193 table@build created L1@427 N·701 S·1023KiB "\x04id\x02/,v27525":"Zco..zer,v27174"
+17:26:36.480271 version@stat F·[0 1] S·1023KiB[0B 1023KiB] Sc·[0.00 0.01]
+17:26:36.481940 table@compaction committed F-4 S-15MiB Ke·0 D·608 T·60.887538ms
+17:26:36.482667 table@remove removed @426
+17:26:36.483415 table@remove removed @424
+17:26:36.484109 table@remove removed @422
+17:26:36.484932 table@remove removed @420
+17:26:36.485173 table@remove removed @418
+17:27:03.928273 memdb@flush N·125 S·3MiB
+17:27:03.946462 memdb@flush created L0@429 N·125 S·3MiB "\x04id\x02/,v27636":"Zco..eus,v27715"
+17:27:03.946536 version@stat F·[1 1] S·4MiB[3MiB 1023KiB] Sc·[0.25 0.01]
+17:27:03.948179 memdb@flush committed F·1 T·19.846556ms
+17:27:03.949032 journal@remove removed @425

@@ -1,0 +1,50 @@
+version: "3"
+
+networks:
+  monitoring:
+
+services:
+  cadvisor:
+    image: google/cadvisor
+    networks:
+      - monitoring
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock,readonly
+      - /:/rootfs
+      - /var/run:/var/run
+      - /sys:/sys
+      - /var/lib/docker/:/var/lib/docker
+    deploy:
+      mode: global
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "80:3000"
+    networks:
+      - monitoring
+    volumes:
+      - ./grafana:/var/lib/grafana
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: password
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+
+  prometheus:
+    image: prom/prometheus
+    networks:
+      - monitoring
+    ports:
+      - "9090:9090"
+    command: -config.file=/etc/prometheus/prometheus.yml -storage.local.path=/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus:/prometheus
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
